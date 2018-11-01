@@ -1,0 +1,513 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass classicthesis
+\use_default_options true
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style plainnat
+\biblatex_bibstyle numeric-comp
+\biblatex_citestyle numeric-comp
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Introduction
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "ch:Introduction"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An integrated collection of expert systems with the aim of the identification,
+ recognition, diagnosis, patient follow-up and help in the treatment journey
+ for three main types of cancer: 
+\series bold
+brain
+\series default
+,
+\series bold
+ breast 
+\series default
+and 
+\series bold
+gastric (stomach) 
+\series default
+cancer is proposed to serve both doctors who seek to automate a part of
+ the general practicioner's job and use a system that will help along the
+ journey of diagnosis, follow-up and treatment, and patients who want their
+ questions answered starting from the very first phases before the confirmation
+ of the illness to later phases of treatment (e.g: chemotherapy), as well
+ as keeping up with how their health is doing so far in an easily accessible
+ way.
+ The system is planned to be available for both doctors and patients using
+ different applications in a way that will make it possible for both parties
+ to access crucial data in the right times.
+\end_layout
+
+\begin_layout Section
+Motivation
+\end_layout
+
+\begin_layout Standard
+By the end of 2018, an estimated 1,735,350 new cases of cancer will be diagnosed
+ in the United States alone with an estimated 609,640 people will die as
+ a result of the disease.
+ By observing different cases from 2011 to 2015, an estimated 0.00439% (around
+ 439 per 100,000) of men and women are diagnosed with cancer each year,
+ while during the same period, the estimated number of deaths resulting
+ from cancer was 163 per 100,000.
+ Death as a result of cancer is slightly higher in men with an estimated
+ 197 per 100,000 compared to an estimated 140 per 100,000 for women.
+ 
+\end_layout
+
+\begin_layout Standard
+According to data collected in the period of 2013-2015, it is estimated
+ that 38.4% of both men and women will get diagnosed with cancer at some
+ point in their lives.
+ 
+\end_layout
+
+\begin_layout Standard
+Cancer has impacted societies around the world in different ways, the numbers
+ aforementioned show approximately how impactful cancer had been and it
+ serves as a wake up call for people who never thought of cancer as a danger
+ they might have to anticipate at some point in their lives.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/ihab/Downloads/lung-cancer-cell-dividing-article.__v80030169.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+A dividing lung cancer cell.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the most basic terms, cancer is an umbrella term for a group of related
+ diseases that all share a common characteristic: an unstoppable division
+ of the body's cells that spread into sorrounding tissues.
+ Cancer can basically start in any of the trillions of cells that make up
+ the human body; normally, human cells grow and divide to form new cells,
+ but the cells grow old or somehow get damaged, they die, and new cells
+ take their place.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Glycation 
+\series default
+(or non-enzymatic glycosylation) is the result of a covalent bond formed
+ between a sugar molecule (i.e: glucose or fructose) to a protein or lipid
+ molecule, without the controlling action of an enzyme.
+ Glycation may either occur inside the body (endogenous glycation) or outside
+ the body (exogenous glycation).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Excogenous glycation 
+\series default
+refers to the formation of 
+\series bold
+Advanced Glycation Endproducts (AGES)
+\series default
+ when sugars are cooked with proteins and fats; typically temperatures over
+ 248 
+\begin_inset Formula $\textdegree F$
+\end_inset
+
+ (
+\begin_inset Formula $\sim120\textdegree C)$
+\end_inset
+
+ greatly spur the reactions, that being said, lower temperatures with longer
+ (or slow) cooking also promote the formulation.
+ Such compounds are absorbed during digestion with about 10% efficiency;
+ browning effects are evidence of pre-formed glycations, for example: sugar
+ is often an ingredient in many french fries and baked good recipes to promote
+ browning.
+ Glycation may contribute to the formation of acrylamide a potential carcinogen,
+ during cooking.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/ihab/Downloads/Screen-Shot-2016-03-17-at-17.29.09.png
+	scale 200
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The Glycation Process
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Endogenous glycations 
+\series default
+describe the type of gylcations occuring mainly in the bloodstream to a
+ small percentae of the absorbed simple sugars (e.g: glucose, fructose and
+ galactose).
+ The effects of fructose were formely drastically underestimated due to
+ the use of inaccurate assay techniques, but it turned out to have effects
+ that are approximately ten times worse than the effects of glucose which
+ is considered the primary body fuel.
+ Some AGEs are benign, but some are much more effective than the sugars
+ they are derived of.
+ AGEs contribute to the development of cancer, along with a massive list
+ of other diseases including cardiovascular diseases, usually when covalent
+ bonds are formed between the sugars and collagens.
+ The list goes on to include Alzheimer's disease as a result of the formation
+ of amyloid proteins as a side-product of AGES, deafness due to demyelination.
+ Long-lived cells, such as nerves, long-lasting proteins (such as crystallins
+ of the lens and cornea), and DNA may accumulate substantial damage over
+ time.
+ Damage by gylcation results in the stiffness of collagen in the blood vessel
+ walls, usually leading to diabetes.
+\end_layout
+
+\begin_layout Standard
+A telomere is a region at the end of a chromosome, often called the tail
+ of the chromosome.
+ Telomeres usually contain repetitive nucloetide sequences to protect the
+ end of the chromosome from deterioration or from fusion with neighbouring
+ chromosomes.
+ During the process of chromosome replication, the enzymes that duplicate
+ DNA can not continue their duplication all the way to the end of the chromose,
+ so each time the end of the DNA is shortened, this is mainly contributed
+ to the synthesis of Okazaki fragments which require RNA primers attaching
+ ahead on the lagging strand.
+ Basically, telomeres are truncated during cell divsion; their presence
+ protects genes contained in the chromosome from being truncated instead.
+ The telomeres themselves are protected by shelterin proteins along with
+ the RNA that telomeric DNA encodes (known as TERRA).
+ When telomeres get too short, the cell can no longer divide resulting in
+ it being inactive or dead; this shortening process is associated aging,
+ cancer and death.
+\end_layout
+
+\begin_layout Standard
+When cancer develops, the orderly process of cell division is broken down;
+ cells become more and more abnormal, damaged cells survive when they are
+ supposed to die, and new cells are formed when they are not needed, these
+ new cells divide continuously without stopping and may form tumours.
+\end_layout
+
+\begin_layout Standard
+Cancerous tumours are malignant, meaning they can spread to nearby tissues,
+ and as tumours grow, some cancer cells break off and travel to distant
+ places in the body through the blood or the lymph system and form new tumours
+ in places other than the origin of the tumour.
+ In contrast with malignant tumours, benign tumours do not spread to nearby
+ areas, and while they can be quite large, once they are removed they usually
+ do not grow back; most benign tumours are safe except the ones that grow
+ in the brain.
+\end_layout
+
+\begin_layout Standard
+Cancer cells are not as specialized as normal cells, meaning that normal
+ cells mature into very distinct cell types while cancerous ones do not,
+ that is why cancerous cells keep dividing in an unstoppable fashion.
+ That is in the addition to the fact that cancerous cells are programmed
+ to ignore signals that tell cells to dividing, a process called programmed
+ cell death, or apoptosis, which the body utilizes to get rid of unncessary
+ cells.
+ 
+\end_layout
+
+\begin_layout Standard
+The microenvironment, or the area sorrounding and feeding a tumour could
+ be hugely influenced by cancer cells that may be able to affect the normal
+ cells, molecules and blood vessels.
+ As an example of such an effect, cancer cells could prompt normal cells
+ to form blood vessels that supply the tumours with oxygen and nutrients
+ which they need to grow.
+ Cancer cells can dodge the immune system and specialized cells that protect
+ the body from infections and other conditions.
+\end_layout
+
+\begin_layout Standard
+Being a genetic disease, cancer is caused by changes to genes that control
+ the way our cells function, especially how they divide and grow.
+ Such genetic changes could either be inherited from the patient's parents
+ or from errors during the patient's lifetime that occur as cells divide
+ or as a result from DNA damage caused by certain environmental exposures,
+ e.g: tobacco smoking, consumption of unrefined sugars and grains, radiations
+ such as UV rays from the sun.
+\end_layout
+
+\begin_layout Section
+Non-Functional Requirements
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Usability Requirement:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Minimizing impact of errors 
+\end_layout
+
+\begin_layout Enumerate
+Adapting to user needs
+\end_layout
+
+\begin_layout Enumerate
+Improved human-computer interaction through better UX.
+\end_layout
+
+\begin_layout Enumerate
+Speed
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Efficiency Requirement:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+performance 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Transaction processing
+\end_layout
+
+\begin_layout Enumerate
+User / Event Response Time 
+\end_layout
+
+\begin_layout Enumerate
+Screen Refresh Time 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Space: the site requirement spaces is good enough to handle website
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Dependability Requirement
+\series default
+: users will be able to enjoy all their privacy rights restricting unauthorized
+ access to their records and data.
+\begin_inset Newline newline
+\end_inset
+
+The implementation and use of top-notch security algorithms to protect users
+ sensitive and personal data.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Scalability Requirement
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+The system is scalable to a very flexible degree in its various phases,
+ especially in the second and fourth phases, or the CBR system and the marketpla
+ce where doctors are encouraged by means of an economic game to add their
+ data sets, and by the natural way the CBR system learns over time from
+ follow-ups with patients along their treatment journey.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Operational Requirement:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+System servers should be up and running around the clock to help both doctors
+ and patients access crucial data at all times.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Development Requirement:
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+The system should be flexible and extremely dynamic.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Implementation requirements:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Parallel processing accross server and client.
+\end_layout
+
+\begin_layout Enumerate
+Support for different languages.
+\end_layout
+
+\begin_layout Enumerate
+Cross-platform support.
+\end_layout
+
+\begin_layout Enumerate
+Database integrity.
+ 
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
