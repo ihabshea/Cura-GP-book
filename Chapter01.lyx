@@ -100,7 +100,7 @@ name "ch:Introduction"
 \begin_layout Standard
 
 \size larger
-An integrated collection of expert systems with the aim of the identification,
+An integrated collection of expert systems, with the aim of the identification,
  recognition, diagnosis, patient follow-up and help in the treatment journey
  for three main types of cancer: 
 \series bold
@@ -114,7 +114,7 @@ and
 \series bold
 gastric (stomach) 
 \series default
-cancer is proposed to serve both doctors who seek to automate a part of
+cancer, is proposed to serve both doctors who seek to automate a part of
  the general practicioner's job and use a system that will help along the
  journey of diagnosis, follow-up and treatment, and patients who want their
  questions answered starting from the very first phases before the confirmation
@@ -208,7 +208,7 @@ A dividing lung cancer cell.
 \size larger
 In the most basic terms, cancer is an umbrella term for a group of related
  diseases that all share a common characteristic: an unstoppable division
- of the body's cells that spread into sorrounding tissues.
+ of the body's cells that spread into surrounding tissues.
  Cancer can basically start in any of the trillions of cells that make up
  the human body; normally, human cells grow and divide to form new cells,
  but the cells grow old or somehow get damaged, they die, and new cells
@@ -226,7 +226,6 @@ Glycation
  molecule, without the controlling action of an enzyme.
  Glycation may either occur inside the body (endogenous glycation) or outside
  the body (exogenous glycation).
- 
 \end_layout
 
 \begin_layout Standard
@@ -310,7 +309,7 @@ The Glycation Process
 Endogenous glycations 
 \series default
 describe the type of gylcations occuring mainly in the bloodstream to a
- small percentae of the absorbed simple sugars (e.g: glucose, fructose and
+ small percentage of the absorbed simple sugars (e.g: glucose, fructose and
  galactose).
  The effects of fructose were formely drastically underestimated due to
  the use of inaccurate assay techniques, but it turned out to have effects
@@ -339,8 +338,8 @@ A telomere is a region at the end of a chromosome, often called the tail
  end of the chromosome from deterioration or from fusion with neighbouring
  chromosomes.
  During the process of chromosome replication, the enzymes that duplicate
- DNA can not continue their duplication all the way to the end of the chromose,
- so each time the end of the DNA is shortened, this is mainly contributed
+ DNA can not continue their duplication all the way to the end of the chromosome
+, so each time the end of the DNA is shortened, this is mainly contributed
  to the synthesis of Okazaki fragments which require RNA primers attaching
  ahead on the lagging strand.
  Basically, telomeres are truncated during cell divsion; their presence
@@ -348,7 +347,7 @@ A telomere is a region at the end of a chromosome, often called the tail
  The telomeres themselves are protected by shelterin proteins along with
  the RNA that telomeric DNA encodes (known as TERRA).
  When telomeres get too short, the cell can no longer divide resulting in
- it being inactive or dead; this shortening process is associated aging,
+ it being inactive or dead; this shortening process is associated with aging,
  cancer and death.
 \end_layout
 
@@ -377,12 +376,12 @@ Cancerous tumours are malignant, meaning they can spread to nearby tissues,
 \begin_layout Standard
 
 \size larger
-Cancer cells are not as specialized as normal cells, meaning that normal
+Cancer cells are not as specialised as normal cells, meaning that normal
  cells mature into very distinct cell types while cancerous ones do not,
  that is why cancerous cells keep dividing in an unstoppable fashion.
  That is in the addition to the fact that cancerous cells are programmed
- to ignore signals that tell cells to dividing, a process called programmed
- cell death, or apoptosis, which the body utilizes to get rid of unncessary
+ to ignore signals that tell cells to stop dividing, a process called programmed
+ cell death, or apoptosis, which the body utilises to get rid of unncessary
  cells.
  
 \end_layout
@@ -390,13 +389,13 @@ Cancer cells are not as specialized as normal cells, meaning that normal
 \begin_layout Standard
 
 \size larger
-The microenvironment, or the area sorrounding and feeding a tumour could
+The microenvironment, or the area surrounding and feeding a tumour could
  be hugely influenced by cancer cells that may be able to affect the normal
  cells, molecules and blood vessels.
  As an example of such an effect, cancer cells could prompt normal cells
  to form blood vessels that supply the tumours with oxygen and nutrients
  which they need to grow.
- Cancer cells can dodge the immune system and specialized cells that protect
+ Cancer cells can dodge the immune system and specialised cells that protect
  the body from infections and other conditions.
 \end_layout
 
@@ -413,17 +412,17 @@ Being a genetic disease, cancer is caused by changes to genes that control
 \end_layout
 
 \begin_layout Section
-System Description 
+System Description
 \end_layout
 
 \begin_layout Standard
 
 \size larger
 The system is composed of four phases that interact with and complement
- one another to help patients to recognize the symptomps of cancer early
+ one another to help patients to recognise the symptoms of cancer early
  on, follow their progress and have their questions about chemotherapy answered,
- whie helping doctors to organize and easily access patient's records, support
- in the diagnosis, treatment and postoperative chemotherapy.
+ while helping doctors to organise and easily access patient's records,
+ support in the diagnosis, treatment and postoperative chemotherapy.
  The following is a description of each of the proposed phases.
 \end_layout
 
@@ -440,14 +439,14 @@ The first phase in the journey is aimed at the patient before the official
  diagnosis by a doctor.
  Cura General Practicioner is a rule-based system built with the support
  of natural language processing to help to interact with the patients to
- figure out if the symptomps they are experiences can potentially be diagnosed
+ figure out if the symptoms they are experiencing can potentially be diagnosed
  as cancer or not.
  If the system suspects the patient is in serious need of help because they
- may have one of the three types of cancer aforementioned they are forwarded
- to the second phase and recommended a suitable doctor who uses the system,
- otherwise they are recommended basic cautionary tips and may be recommended
- with the addresses of nearby doctors specializing in the suspected illnesses
- they may have.
+ may have one of the three types of cancer aforementioned, they are forwarded
+ to the second phase and are recommended a suitable doctor who uses the
+ system, otherwise they are recommended basic cautionary tips and may be
+ recommended with the addresses of nearby doctors specialising in the suspected
+ illnesses they may have.
  The result of the session the patient has with the system is a detailed
  report sent to the suggested doctor before progressing to the second phase.
 \end_layout
@@ -491,21 +490,20 @@ Overview of the Problem Domain
 \begin_layout Standard
 
 \size larger
-Cura GP is designed to assist patients in the recognition of the symptomps
+Cura GP is designed to assist patients in the recognition of the symptoms
  they might be experiencing and how they might impact their chance of treatment.
  Cancer is a general term describing a variety of related diseases having
  different prognoses and natural histories.
- 
 \end_layout
 
 \begin_layout Standard
 
 \size larger
 The domain of this particular expert system is not exactly typical; it is
- mainly concerned with the symptomps of the three types of cancer aforementioned
-: brain, breast and gaststric cancer, along with all possibly related illnesses;
+ mainly concerned with the symptoms of the three types of cancer aforementioned:
+ brain, breast and gastric cancer, along with all possibly related illnesses;
  for example in the case of gastric cancer the system also deals with the
- symptomps of gastritis, ulcerative colitis and possibly related gastric
+ symptoms of gastritis, ulcerative colitis and possibly related gastric
  diseases.
  The resources used to help articulate and describe such a domain include
  various researches detailed in the reference section of this book.
@@ -520,7 +518,7 @@ Overview of the NLP Brain
 \begin_layout Standard
 
 \size larger
-The brain of the natural language reasoner is developed through Rivescript,
+The brain of the natural language reasoner is developed using Rivescript,
  an excerpt of the brain is shown as follows:
 \begin_inset Newline newline
 \end_inset
@@ -533,7 +531,6 @@ status open
 
 \begin_layout Plain Layout
 
-\size larger
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -547,80 +544,67 @@ Excerpt of Cura GP Brain
 
 \begin_layout Plain Layout
 
-\size larger
 ! array bodypart= breast brain stomach 
 \end_layout
 
 \begin_layout Plain Layout
 
-\size larger
 ! array paintype = burning crampy dull Sharp 
 \end_layout
 
 \begin_layout Plain Layout
 
-\size larger
 ! array painspan= sudden ongoing episodic Steady 
 \end_layout
 
 \begin_layout Plain Layout
 
-\size larger
 ! array painlocation= lower abdomen|upper abdomen|middle abdomen 
 \end_layout
 
 \begin_layout Plain Layout
 
-\size larger
 ! array paintrigger= stress|drinking alcohol|eating certain food|Coughing
  or other jarring movements 
 \end_layout
 
 \begin_layout Plain Layout
 
-\size larger
 ! array painrelief=Antacids|changing position|drinking more water 
 \end_layout
 
 \begin_layout Plain Layout
 
-\size larger
 < begin
 \end_layout
 
 \begin_layout Plain Layout
 
-\size larger
 +Describe how you are feeling right now{topic=pain}
 \end_layout
 
 \begin_layout Plain Layout
 
-\size larger
 >topic pain 
 \end_layout
 
 \begin_layout Plain Layout
 
-\size larger
 +[*](@bodypart)[*] 
 \end_layout
 
 \begin_layout Plain Layout
 
-\size larger
 - in which area does it hurt <set pp=<star>> 
 \end_layout
 
 \begin_layout Plain Layout
 
-\size larger
 +[*](@painlocation)[*] 
 \end_layout
 
 \begin_layout Plain Layout
 
-\size larger
 -Describe how is the pain like <set pl=<star>> 
 \end_layout
 
@@ -643,7 +627,8 @@ Cura CBR is designed with the purpose of assisting oncologists in the follow-up
  therapy protocols.
  Its aim is to extend our knowledge of cancer at the molecular and cellular
  level, both theoretical and experimental, to achieve a system with a proper
- knowledge base that will be as expert as the current technology allows.
+ knowledge base that will be as knowledgeable as the current technology
+ allows.
 \end_layout
 
 \begin_layout Standard
@@ -672,7 +657,7 @@ A proper intelligent system can benefit greatly from the use of a combination
 \size larger
 Classical neurosymbolism deals with the integration of neural networks and
  rule based expert systems.
- The approach we are using is different as it utilizes the same techniques
+ The approach we are using is different as it utilises the same techniques
  to combine neural networks with a combination of rule and case based reasoning
  techniques.
 \end_layout
@@ -755,14 +740,14 @@ As shown in figure 1.3, a connectionist implementation of the CBR is proposed,
 \begin_inset Formula $DAC$
 \end_inset
 
- each corespond to the neurons describing the decision features.
+ each correspond to the neurons describing the decision features.
 \end_layout
 
 \begin_layout Standard
 
 \size larger
-Weighted connections exist between the input and hidden layers; the weight
- correspond to the importance of the attribute for the determination of
+Weighted connections exist between the input and hidden layers; a weight
+ corresponds to the importance of the attribute for the determination of
  the input case; when a new case is introduced to the system, the hidden
  layer is activated by the weighted sum of the input signals, if the sum
  is above the threshold then the output layer will be activated.
@@ -835,8 +820,19 @@ W(A_{ik})_{j}=P(A_{i}=a_{ij}|C=c_{k})
 \begin_inset Formula $a_{ij}$
 \end_inset
 
- given that the observed patient belongs matches a previous patient (or
- case) 
+ given that the observed patient 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\size larger
+belongs
+\end_layout
+
+\end_inset
+
+ matches a previous patient (or case) 
 \begin_inset Formula $c_{k}$
 \end_inset
 
@@ -863,7 +859,7 @@ The output layer contains
 \begin_inset Formula $l$
 \end_inset
 
- neurons and each corresponds to a previous case 
+ neurons and each correspond to a previous case 
 \begin_inset Formula $c_{k}$
 \end_inset
 
@@ -899,7 +895,7 @@ where
 
 \size larger
 This approach of forward propagation allows to perform retrieval of similar
- cases; the hidden layer corresponds to similariy measures.
+ cases; the hidden layer corresponds to similarity measures.
  As for adaptation, the probabilities can be retro-propagated which allows
  memorized cases to contribute to the adaptation process.
  The retro-propagation implies updating activations in the hidden layer
@@ -923,7 +919,6 @@ S(A_{ik})=\frac{S(c_{k})}{S(A_{ik})}
 
 \size larger
 Activations of input layer neurons are updated using the following formula:
- 
 \end_layout
 
 \begin_layout Standard
@@ -1029,14 +1024,14 @@ All interfaces shall be easy to use.
 
 \size larger
 NLP shall be implemented in the first phase to aid users in their description
- of their symptomps.
+ of their symptoms.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
 
 \size larger
-Cases shall be implemented in such a way as appropriate cases can be easily
+Cases shall be implemented in such a way that appropriate cases can be easily
  and correctly retrieved by oncologists.
 \end_layout
 
@@ -1051,7 +1046,6 @@ Patient reports resulting from the general practitioner shall be sent in
 
 \size larger
 The system shall be flexible as to accomodate patient follow-ups and visits.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -1071,7 +1065,7 @@ Usability Requirements:
 \begin_layout Enumerate
 
 \size larger
-Minimizing impact of errors 
+Minimising impact of errors 
 \end_layout
 
 \begin_layout Enumerate
@@ -1117,13 +1111,13 @@ Transaction processing
 \begin_layout Enumerate
 
 \size larger
-User / Event Response Time 
+User/Event response time
 \end_layout
 
 \begin_layout Enumerate
 
 \size larger
-Screen Refresh Time 
+Screen refresh time
 \end_layout
 
 \end_deeper
@@ -1140,7 +1134,11 @@ Space: the site requirement spaces is good enough to handle website
 \size larger
 Dependability Requirement
 \series default
-s: users shall enjoy all their privacy rights restricting unauthorized access
+s:
+\begin_inset Newline newline
+\end_inset
+
+Users shall enjoy all their privacy rights restricting unauthorised access
  to their records and data.
 \end_layout
 
@@ -1154,7 +1152,7 @@ Security Requirements:
 
 
 \series default
-The implementation and use of top-notch security algorithms to protect users
+The implementation and use of top-notch security algorithms to protect user's
  sensitive and personal data.
 \end_layout
 
@@ -1206,14 +1204,14 @@ The system shall be flexible and extremely dynamic.
 
 \series bold
 \size larger
-Implementation requirements:
+Implementation Requirements:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
 
 \size larger
-Parallel processing accross server and client.
+Parallel processing across server and client.
 \end_layout
 
 \begin_layout Enumerate
@@ -1232,7 +1230,6 @@ Cross-platform support.
 
 \size larger
 Database integrity.
- 
 \end_layout
 
 \end_deeper
@@ -1240,9 +1237,13 @@ Database integrity.
 
 \series bold
 \size larger
-Fault tolerance: 
+Fault Tolerance:
 \series default
-the system shall be able to continue operating properly in the event of
+
+\begin_inset Newline newline
+\end_inset
+
+The system shall be able to continue operating properly in the event of
  the failure of one or more of its main components.
  A high-availability approach shall be used.
 \end_layout
@@ -1258,19 +1259,27 @@ Backup
 
 \series bold
 \size larger
-Interoperability: 
+Interoperability:
 \series default
-the different phase of the system shall be interoperable with one another
- and with other systems as well through a properly developed API.
+
+\begin_inset Newline newline
+\end_inset
+
+The different phases of the system shall be interoperable with one another,
+ and with other systems as well, through a properly developed API.
 \end_layout
 
 \begin_layout Enumerate
 
 \series bold
 \size larger
-Testability: 
+Testability:
 \series default
-different phases of the system shall be subjected to different kinds of
+
+\begin_inset Newline newline
+\end_inset
+
+Different phases of the system shall be subjected to different kinds of
  tests from unit tests to integration tests.
 \end_layout
 
@@ -1278,9 +1287,13 @@ different phases of the system shall be subjected to different kinds of
 
 \series bold
 \size larger
-Integrability: 
+Integrability:
 \series default
-the different phases of the system shall be integrated easily.
+
+\begin_inset Newline newline
+\end_inset
+
+The different phases of the system shall be integrated easily.
 \end_layout
 
 \begin_layout Section
@@ -1331,7 +1344,7 @@ Oncologists can record measures of success or failure of previously suggested
 \begin_layout Enumerate
 
 \size larger
-Economic games are employed to incentivize oncologists to share data sets
+Economic games are employed to incentivise oncologists to share data sets
  that are relevant to cancer research.
 \end_layout
 
@@ -1403,13 +1416,13 @@ Goal
 
 \size larger
 \lang english
-In an endeavour to help oncologists do a better job managing, analyzing,
- treating and following up with their patient's health, we set out to develop
+In an endeavour to help oncologists do a better job managing, analysing,
+ treating and following up with their patients' health, we set out to develop
  and implement a proper set of tools built based on years of research in
  fields like mathematical biology, bioinfomatics, computer science, artificial
  intelligence and medical research by dozens of passionate scientists in
  all of the aforementioned fields.
- And thus to realize this mission we set out a goal for CuraCG is to extend
+ And thus to realise this mission we set out a goal for CuraCG is to extend
  our knowledge of cancer at the molecular and cellular level, both theoretical
  and experimental, to achieve a system with a proper knowledge base that
  will be as knowledgeable as the current technology allows.
@@ -1447,7 +1460,7 @@ Allow ongologists to monitor, moderate and follow-up patient treatment and
 
 \size larger
 Provide a collaborative platform for oncologists and scientists using Blockchain
- technology, incentivizing them to share their datasets and vote on current
+ technology, incentivising them to share their datasets and vote on current
  ones.
 \end_layout
 
@@ -1643,7 +1656,7 @@ Objective
 \begin_layout Plain Layout
 
 \size larger
-Time consuming, and less able to generalize to independent data
+Time consuming, and less able to generalise to independent data
 \end_layout
 
 \end_inset
@@ -1701,7 +1714,7 @@ How widespread are the cancers being considered (brain, breast and stomach)?
 \begin_layout Enumerate
 
 \size larger
-How significant are the symptoms in recognizing the cancers in early stages?
+How significant are the symptoms in recognising cancers in early stages?
 \end_layout
 
 \begin_layout Enumerate

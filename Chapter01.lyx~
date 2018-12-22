@@ -80,10 +80,14 @@
 \begin_body
 
 \begin_layout Chapter
+
+\size larger
 Introduction
 \end_layout
 
 \begin_layout Standard
+
+\size larger
 \begin_inset CommandInset label
 LatexCommand label
 name "ch:Introduction"
@@ -94,7 +98,9 @@ name "ch:Introduction"
 \end_layout
 
 \begin_layout Standard
-An integrated collection of expert systems with the aim of the identification,
+
+\size larger
+An integrated collection of expert systems, with the aim of the identification,
  recognition, diagnosis, patient follow-up and help in the treatment journey
  for three main types of cancer: 
 \series bold
@@ -108,7 +114,7 @@ and
 \series bold
 gastric (stomach) 
 \series default
-cancer is proposed to serve both doctors who seek to automate a part of
+cancer, is proposed to serve both doctors who seek to automate a part of
  the general practicioner's job and use a system that will help along the
  journey of diagnosis, follow-up and treatment, and patients who want their
  questions answered starting from the very first phases before the confirmation
@@ -125,6 +131,8 @@ Motivation
 \end_layout
 
 \begin_layout Standard
+
+\size larger
 By the end of 2018, an estimated 1,735,350 new cases of cancer will be diagnosed
  in the United States alone with an estimated 609,640 people will die as
  a result of the disease.
@@ -138,6 +146,8 @@ By the end of 2018, an estimated 1,735,350 new cases of cancer will be diagnosed
 \end_layout
 
 \begin_layout Standard
+
+\size larger
 According to data collected in the period of 2013-2015, it is estimated
  that 38.4% of both men and women will get diagnosed with cancer at some
  point in their lives.
@@ -145,6 +155,8 @@ According to data collected in the period of 2013-2015, it is estimated
 \end_layout
 
 \begin_layout Standard
+
+\size larger
 Cancer has impacted societies around the world in different ways, the numbers
  aforementioned show approximately how impactful cancer had been and it
  serves as a wake up call for people who never thought of cancer as a danger
@@ -152,6 +164,8 @@ Cancer has impacted societies around the world in different ways, the numbers
 \end_layout
 
 \begin_layout Standard
+
+\size larger
 \begin_inset Float figure
 placement H
 wide false
@@ -159,6 +173,8 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+
+\size larger
 \begin_inset Graphics
 	filename /home/ihab/Downloads/lung-cancer-cell-dividing-article.__v80030169.jpg
 	scale 50
@@ -169,6 +185,8 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+
+\size larger
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -186,9 +204,11 @@ A dividing lung cancer cell.
 \end_layout
 
 \begin_layout Standard
+
+\size larger
 In the most basic terms, cancer is an umbrella term for a group of related
  diseases that all share a common characteristic: an unstoppable division
- of the body's cells that spread into sorrounding tissues.
+ of the body's cells that spread into surrounding tissues.
  Cancer can basically start in any of the trillions of cells that make up
  the human body; normally, human cells grow and divide to form new cells,
  but the cells grow old or somehow get damaged, they die, and new cells
@@ -198,6 +218,7 @@ In the most basic terms, cancer is an umbrella term for a group of related
 \begin_layout Standard
 
 \series bold
+\size larger
 Glycation 
 \series default
 (or non-enzymatic glycosylation) is the result of a covalent bond formed
@@ -205,12 +226,12 @@ Glycation
  molecule, without the controlling action of an enzyme.
  Glycation may either occur inside the body (endogenous glycation) or outside
  the body (exogenous glycation).
- 
 \end_layout
 
 \begin_layout Standard
 
 \series bold
+\size larger
 Excogenous glycation 
 \series default
 refers to the formation of 
@@ -238,6 +259,8 @@ Advanced Glycation Endproducts (AGES)
 \end_layout
 
 \begin_layout Standard
+
+\size larger
 \begin_inset Float figure
 placement H
 wide false
@@ -249,6 +272,8 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+
+\size larger
 \begin_inset Graphics
 	filename /home/ihab/Downloads/Screen-Shot-2016-03-17-at-17.29.09.png
 	scale 200
@@ -259,6 +284,8 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+
+\size larger
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -278,10 +305,11 @@ The Glycation Process
 \begin_layout Standard
 
 \series bold
+\size larger
 Endogenous glycations 
 \series default
 describe the type of gylcations occuring mainly in the bloodstream to a
- small percentae of the absorbed simple sugars (e.g: glucose, fructose and
+ small percentage of the absorbed simple sugars (e.g: glucose, fructose and
  galactose).
  The effects of fructose were formely drastically underestimated due to
  the use of inaccurate assay techniques, but it turned out to have effects
@@ -302,14 +330,16 @@ describe the type of gylcations occuring mainly in the bloodstream to a
 \end_layout
 
 \begin_layout Standard
+
+\size larger
 A telomere is a region at the end of a chromosome, often called the tail
  of the chromosome.
  Telomeres usually contain repetitive nucloetide sequences to protect the
  end of the chromosome from deterioration or from fusion with neighbouring
  chromosomes.
  During the process of chromosome replication, the enzymes that duplicate
- DNA can not continue their duplication all the way to the end of the chromose,
- so each time the end of the DNA is shortened, this is mainly contributed
+ DNA can not continue their duplication all the way to the end of the chromosome
+, so each time the end of the DNA is shortened, this is mainly contributed
  to the synthesis of Okazaki fragments which require RNA primers attaching
  ahead on the lagging strand.
  Basically, telomeres are truncated during cell divsion; their presence
@@ -317,11 +347,13 @@ A telomere is a region at the end of a chromosome, often called the tail
  The telomeres themselves are protected by shelterin proteins along with
  the RNA that telomeric DNA encodes (known as TERRA).
  When telomeres get too short, the cell can no longer divide resulting in
- it being inactive or dead; this shortening process is associated aging,
+ it being inactive or dead; this shortening process is associated with aging,
  cancer and death.
 \end_layout
 
 \begin_layout Standard
+
+\size larger
 When cancer develops, the orderly process of cell division is broken down;
  cells become more and more abnormal, damaged cells survive when they are
  supposed to die, and new cells are formed when they are not needed, these
@@ -329,6 +361,8 @@ When cancer develops, the orderly process of cell division is broken down;
 \end_layout
 
 \begin_layout Standard
+
+\size larger
 Cancerous tumours are malignant, meaning they can spread to nearby tissues,
  and as tumours grow, some cancer cells break off and travel to distant
  places in the body through the blood or the lymph system and form new tumours
@@ -340,28 +374,34 @@ Cancerous tumours are malignant, meaning they can spread to nearby tissues,
 \end_layout
 
 \begin_layout Standard
-Cancer cells are not as specialized as normal cells, meaning that normal
+
+\size larger
+Cancer cells are not as specialised as normal cells, meaning that normal
  cells mature into very distinct cell types while cancerous ones do not,
  that is why cancerous cells keep dividing in an unstoppable fashion.
  That is in the addition to the fact that cancerous cells are programmed
- to ignore signals that tell cells to dividing, a process called programmed
- cell death, or apoptosis, which the body utilizes to get rid of unncessary
+ to ignore signals that tell cells to stop dividing, a process called programmed
+ cell death, or apoptosis, which the body utilises to get rid of unncessary
  cells.
  
 \end_layout
 
 \begin_layout Standard
-The microenvironment, or the area sorrounding and feeding a tumour could
+
+\size larger
+The microenvironment, or the area surrounding and feeding a tumour could
  be hugely influenced by cancer cells that may be able to affect the normal
  cells, molecules and blood vessels.
  As an example of such an effect, cancer cells could prompt normal cells
  to form blood vessels that supply the tumours with oxygen and nutrients
  which they need to grow.
- Cancer cells can dodge the immune system and specialized cells that protect
+ Cancer cells can dodge the immune system and specialised cells that protect
  the body from infections and other conditions.
 \end_layout
 
 \begin_layout Standard
+
+\size larger
 Being a genetic disease, cancer is caused by changes to genes that control
  the way our cells function, especially how they divide and grow.
  Such genetic changes could either be inherited from the patient's parents
@@ -372,29 +412,679 @@ Being a genetic disease, cancer is caused by changes to genes that control
 \end_layout
 
 \begin_layout Section
+System Description
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+The system is composed of four phases that interact with and complement
+ one another to help patients to recognise the symptoms of cancer early
+ on, follow their progress and have their questions about chemotherapy answered,
+ while helping doctors to organise and easily access patient's records,
+ support in the diagnosis, treatment and postoperative chemotherapy.
+ The following is a description of each of the proposed phases.
+\end_layout
+
+\begin_layout Subsection
+
+\size larger
+Phase 1: Cura General Parctitioner
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+The first phase in the journey is aimed at the patient before the official
+ diagnosis by a doctor.
+ Cura General Practicioner is a rule-based system built with the support
+ of natural language processing to help to interact with the patients to
+ figure out if the symptoms they are experiencing can potentially be diagnosed
+ as cancer or not.
+ If the system suspects the patient is in serious need of help because they
+ may have one of the three types of cancer aforementioned, they are forwarded
+ to the second phase and are recommended a suitable doctor who uses the
+ system, otherwise they are recommended basic cautionary tips and may be
+ recommended with the addresses of nearby doctors specialising in the suspected
+ illnesses they may have.
+ The result of the session the patient has with the system is a detailed
+ report sent to the suggested doctor before progressing to the second phase.
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+Cura GP is composed of a set of interrelated subsystems, the principal of
+ which are:
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+the reasoner: a rule based expert consultant that forms the basis of the
+ system and is the main contributor to the medical report sent to the doctor.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+the natural language processor: a component that helps interpret user messages
+ and makes the communication experience a little bit more friendly and easier
+ for the patient.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+the interviewer: the user interface of the system which combines modern
+ UI technologies with both the NLP and RBS components to achieve the most
+ optimal results
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Overview of the Problem Domain
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+Cura GP is designed to assist patients in the recognition of the symptoms
+ they might be experiencing and how they might impact their chance of treatment.
+ Cancer is a general term describing a variety of related diseases having
+ different prognoses and natural histories.
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+The domain of this particular expert system is not exactly typical; it is
+ mainly concerned with the symptoms of the three types of cancer aforementioned:
+ brain, breast and gastric cancer, along with all possibly related illnesses;
+ for example in the case of gastric cancer the system also deals with the
+ symptoms of gastritis, ulcerative colitis and possibly related gastric
+ diseases.
+ The resources used to help articulate and describe such a domain include
+ various researches detailed in the reference section of this book.
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Overview of the NLP Brain
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+The brain of the natural language reasoner is developed using Rivescript,
+ an excerpt of the brain is shown as follows:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset listings
+lstparams "language=Pascal,float=h"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Excerpt of Cura GP Brain
+\end_layout
+
+\end_inset
+
+! var name=cura
+\end_layout
+
+\begin_layout Plain Layout
+
+! array bodypart= breast brain stomach 
+\end_layout
+
+\begin_layout Plain Layout
+
+! array paintype = burning crampy dull Sharp 
+\end_layout
+
+\begin_layout Plain Layout
+
+! array painspan= sudden ongoing episodic Steady 
+\end_layout
+
+\begin_layout Plain Layout
+
+! array painlocation= lower abdomen|upper abdomen|middle abdomen 
+\end_layout
+
+\begin_layout Plain Layout
+
+! array paintrigger= stress|drinking alcohol|eating certain food|Coughing
+ or other jarring movements 
+\end_layout
+
+\begin_layout Plain Layout
+
+! array painrelief=Antacids|changing position|drinking more water 
+\end_layout
+
+\begin_layout Plain Layout
+
+< begin
+\end_layout
+
+\begin_layout Plain Layout
+
++Describe how you are feeling right now{topic=pain}
+\end_layout
+
+\begin_layout Plain Layout
+
+>topic pain 
+\end_layout
+
+\begin_layout Plain Layout
+
++[*](@bodypart)[*] 
+\end_layout
+
+\begin_layout Plain Layout
+
+- in which area does it hurt <set pp=<star>> 
+\end_layout
+
+\begin_layout Plain Layout
+
++[*](@painlocation)[*] 
+\end_layout
+
+\begin_layout Plain Layout
+
+-Describe how is the pain like <set pl=<star>> 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\size larger
+Cura CBR
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+Cura CBR is designed with the purpose of assisting oncologists in the follow-up
+ and analysis of the cases of different patients based on currently used
+ therapy protocols.
+ Its aim is to extend our knowledge of cancer at the molecular and cellular
+ level, both theoretical and experimental, to achieve a system with a proper
+ knowledge base that will be as knowledgeable as the current technology
+ allows.
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+Cura CBR system is proposed to be built based on research on hybrid neurosymboli
+c models, and motivations for such an approach are:
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+Cognitive processes are heterogenous – a large pool of representations and
+ techniques are used.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+A proper intelligent system can benefit greatly from the use of a combination
+ of different techniques, since a single technique can not do everything.
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+Classical neurosymbolism deals with the integration of neural networks and
+ rule based expert systems.
+ The approach we are using is different as it utilises the same techniques
+ to combine neural networks with a combination of rule and case based reasoning
+ techniques.
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+Neural networks will form the basis for the entirety of the case-based system
+ including the indexing, retrieval, adaptation and learning phases.
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset Graphics
+	filename /home/ihab/Pictures/neuralnet.png
+	scale 150
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Neural Networks for CBR
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+As shown in figure 1.3, a connectionist implementation of the CBR is proposed,
+ three types of neuron are used:
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+\begin_inset Formula $PAV$
+\end_inset
+
+ neurons each represent an input attribute.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+\begin_inset Formula $OC$
+\end_inset
+
+ neurons correspond to stored cases as the hidden layer neurons.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+\begin_inset Formula $DAC$
+\end_inset
+
+ each correspond to the neurons describing the decision features.
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+Weighted connections exist between the input and hidden layers; a weight
+ corresponds to the importance of the attribute for the determination of
+ the input case; when a new case is introduced to the system, the hidden
+ layer is activated by the weighted sum of the input signals, if the sum
+ is above the threshold then the output layer will be activated.
+\end_layout
+
+\begin_layout Itemize
+
+\size larger
+The input layer contains a neuron for each attribute value.
+\end_layout
+
+\begin_layout Itemize
+
+\size larger
+the hidden layer contains m groups of neurons.
+ Each group has 
+\begin_inset Formula $l$
+\end_inset
+
+ neurons and neuron 
+\begin_inset Formula $A_{ik}$
+\end_inset
+
+ has 
+\begin_inset Formula $n_{i}$
+\end_inset
+
+ connections from the neurons 
+\begin_inset Formula $a_{i1},\cdots,a_{in_{i}}$
+\end_inset
+
+in the input layer.
+ Weights connecting 
+\begin_inset Formula $A_{ik}$
+\end_inset
+
+to neuron 
+\begin_inset Formula $a_{ik}$
+\end_inset
+
+ to neuron 
+\begin_inset Formula $a_{ij}$
+\end_inset
+
+ are given by:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+W(A_{ik})_{j}=P(A_{i}=a_{ij}|C=c_{k})
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $W(A_{ik})_{j}$
+\end_inset
+
+ is the probability that the attribute 
+\begin_inset Formula $A_{ik}$
+\end_inset
+
+ takes the value 
+\begin_inset Formula $a_{ij}$
+\end_inset
+
+ given that the observed patient 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\size larger
+belongs
+\end_layout
+
+\end_inset
+
+ matches a previous patient (or case) 
+\begin_inset Formula $c_{k}$
+\end_inset
+
+.
+ The activation of 
+\begin_inset Formula $A_{ik}$
+\end_inset
+
+ is achieved by:
+\begin_inset Formula 
+\begin{equation}
+S(A_{ik})=\sum_{j=1}^{n}W(A_{ik})_{j}\times S(a_{ij})
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size larger
+The output layer contains 
+\begin_inset Formula $l$
+\end_inset
+
+ neurons and each corresponds to a previous case 
+\begin_inset Formula $c_{k}$
+\end_inset
+
+.
+ The activation is computed by:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+S(c_{k})=\theta_{k}\times\prod_{i=1}^{m}S(A_{ik})
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+where 
+\begin_inset Formula $\theta_{k}=P(C=c_{k})$
+\end_inset
+
+ is a constant stocked in the neuron 
+\begin_inset Formula $c_{k}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+This approach of forward propagation allows to perform retrieval of similar
+ cases; the hidden layer corresponds to similariy measures.
+ As for adaptation, the probabilities can be retro-propagated which allows
+ memorized cases to contribute to the adaptation process.
+ The retro-propagation implies updating activations in the hidden layer
+ as follows:
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+S(A_{ik})=\frac{S(c_{k})}{S(A_{ik})}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+Activations of input layer neurons are updated using the following formula:
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+S(a_{ij})=S(a_{ij})\times\sum_{k=1}^{l}W(a_{ij})_{k}\times S(A_{ik})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+where 
+\begin_inset Formula $W(a_{ij})_{k}$
+\end_inset
+
+ is the weight from 
+\begin_inset Formula $A_{ik}$
+\end_inset
+
+ to 
+\begin_inset Formula $a_{ij},$
+\end_inset
+
+with a value of 
+\begin_inset Formula $P(a_{ij}|c_{k})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+System Requirements 
+\end_layout
+
+\begin_layout Subsection
+
+\size larger
+Functional Requirements
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset Graphics
+	filename /home/ihab/Downloads/Untitled Diagram (1).png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Context Diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\size larger
+Interface Requirements:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\size larger
+All interfaces shall be easy to use.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+NLP shall be implemented in the first phase to aid users in their description
+ of their symptoms.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\size larger
+Cases shall be implemented in such a way as appropriate cases can be easily
+ and correctly retrieved by oncologists.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+Patient reports resulting from the general practitioner shall be sent in
+ a proper form to the oncologist prior to the CBR phase.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+The system shall be flexible as to accomodate patient follow-ups and visits.
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\size larger
 Non-Functional Requirements
 \end_layout
 
 \begin_layout Enumerate
 
 \series bold
-Usability Requirement:
+\size larger
+Usability Requirements:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
+
+\size larger
 Minimizing impact of errors 
 \end_layout
 
 \begin_layout Enumerate
+
+\size larger
 Adapting to user needs
 \end_layout
 
 \begin_layout Enumerate
+
+\size larger
 Improved human-computer interaction through better UX.
 \end_layout
 
 \begin_layout Enumerate
+
+\size larger
 Speed
 \end_layout
 
@@ -402,29 +1092,40 @@ Speed
 \begin_layout Enumerate
 
 \series bold
-Efficiency Requirement:
+\size larger
+Efficiency Requirements:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
+
+\size larger
 performance 
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
+
+\size larger
 Transaction processing
 \end_layout
 
 \begin_layout Enumerate
+
+\size larger
 User / Event Response Time 
 \end_layout
 
 \begin_layout Enumerate
+
+\size larger
 Screen Refresh Time 
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
+
+\size larger
 Space: the site requirement spaces is good enough to handle website
 \end_layout
 
@@ -432,13 +1133,23 @@ Space: the site requirement spaces is good enough to handle website
 \begin_layout Enumerate
 
 \series bold
+\size larger
 Dependability Requirement
 \series default
-: users will be able to enjoy all their privacy rights restricting unauthorized
- access to their records and data.
+s: users shall enjoy all their privacy rights restricting unauthorized access
+ to their records and data.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\size larger
+Security Requirements: 
 \begin_inset Newline newline
 \end_inset
 
+
+\series default
 The implementation and use of top-notch security algorithms to protect users
  sensitive and personal data.
 \end_layout
@@ -446,13 +1157,14 @@ The implementation and use of top-notch security algorithms to protect users
 \begin_layout Enumerate
 
 \series bold
+\size larger
 Scalability Requirement
 \series default
 :
 \begin_inset Newline newline
 \end_inset
 
-The system is scalable to a very flexible degree in its various phases,
+The system shall be scalable to a very flexible degree in its various phases,
  especially in the second and fourth phases, or the CBR system and the marketpla
 ce where doctors are encouraged by means of an economic game to add their
  data sets, and by the natural way the CBR system learns over time from
@@ -462,52 +1174,562 @@ ce where doctors are encouraged by means of an economic game to add their
 \begin_layout Enumerate
 
 \series bold
-Operational Requirement:
+\size larger
+Operational Requirements:
 \series default
 
 \begin_inset Newline newline
 \end_inset
 
-System servers should be up and running around the clock to help both doctors
+System servers shall be up and running around the clock to help both doctors
  and patients access crucial data at all times.
 \end_layout
 
 \begin_layout Enumerate
 
 \series bold
-Development Requirement:
+\size larger
+Development Requirements:
 \begin_inset Newline newline
 \end_inset
 
 
 \series default
-The system should be flexible and extremely dynamic.
+The system shall be flexible and extremely dynamic.
 \end_layout
 
 \begin_layout Enumerate
 
 \series bold
+\size larger
 Implementation requirements:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
+
+\size larger
 Parallel processing accross server and client.
 \end_layout
 
 \begin_layout Enumerate
+
+\size larger
 Support for different languages.
 \end_layout
 
 \begin_layout Enumerate
+
+\size larger
 Cross-platform support.
 \end_layout
 
 \begin_layout Enumerate
+
+\size larger
 Database integrity.
  
 \end_layout
 
 \end_deeper
+\begin_layout Enumerate
+
+\series bold
+\size larger
+Fault tolerance: 
+\series default
+the system shall be able to continue operating properly in the event of
+ the failure of one or more of its main components.
+ A high-availability approach shall be used.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\size larger
+Backup
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\size larger
+Interoperability: 
+\series default
+the different phase of the system shall be interoperable with one another
+ and with other systems as well through a properly developed API.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\size larger
+Testability: 
+\series default
+different phases of the system shall be subjected to different kinds of
+ tests from unit tests to integration tests.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\size larger
+Integrability: 
+\series default
+the different phases of the system shall be integrated easily.
+\end_layout
+
+\begin_layout Section
+Advantages and Drawbacks
+\end_layout
+
+\begin_layout Subsection
+
+\size larger
+Advantages:
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+Easily accessible for patients and doctors.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+CBR learns more about different patients and cases over time.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+The system is fed with more information over time, hence the system will
+ develop further as the knowledge about cancer accumulates and develops
+ over time.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+The system can still reason with missing information about the patient by
+ piecing together data about similar patients.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+Oncologists can record measures of success or failure of previously suggested
+ solutions which the system uses to know what caused those failures and
+ predict future failures.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+Economic games are employed to incentivize oncologists to share data sets
+ that are relevant to cancer research.
+\end_layout
+
+\begin_layout Subsection
+
+\size larger
+Drawbacks:
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+The system does not cover all known types of cancer.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+The system might not be convenient for patients throughout the entire recognitio
+n and treatment process.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+The system might not be as efficient right from the beginning, but this
+ is solvable with the progression of time.
+\end_layout
+
+\begin_layout Section
+Research Methodology
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Graphics
+	filename /home/ihab/Downloads/collect.jpg
+	scale 150
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\size larger
+Research Strategy
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+The research done in this project is rather an applied one, based on numerous
+ previous academic and industrial research spanning across numerous fields
+ including bioinformatics, mathematical biology, blockchain among others.
+ As such, our research took the form of a new improvised and revised version
+ of a collection of previous researches in the aforementioned fields.
+\end_layout
+
+\begin_layout Subsection
+
+\size larger
+Goal
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\lang english
+In an endeavour to help oncologists do a better job managing, analyzing,
+ treating and following up with their patient's health, we set out to develop
+ and implement a proper set of tools built based on years of research in
+ fields like mathematical biology, bioinfomatics, computer science, artificial
+ intelligence and medical research by dozens of passionate scientists in
+ all of the aforementioned fields.
+ And thus to realize this mission we set out a goal for CuraCG is to extend
+ our knowledge of cancer at the molecular and cellular level, both theoretical
+ and experimental, to achieve a system with a proper knowledge base that
+ will be as knowledgeable as the current technology allows.
+\end_layout
+
+\begin_layout Subsection
+
+\size larger
+Objectives
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+Implement a general practitioner that helps diagnose the user by means of
+ an interactive NLP-powered chatbot.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+Implement an expert system that concludes the major communication link between
+ the oncologist, the patient and his visits, along with a case-based reasoning
+ component that creates knowledge based on cases from its casebase.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+Allow ongologists to monitor, moderate and follow-up patient treatment and
+ gain insights on its effectiveness.
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+Provide a collaborative platform for oncologists and scientists using Blockchain
+ technology, incentivizing them to share their datasets and vote on current
+ ones.
+\end_layout
+
+\begin_layout Subsection
+
+\size larger
+Research Method - Qualitative versus Quantitative Techniques
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+In order to carry out research that would be beneficial to the point where
+ it would help to achieve the objectives listed in 1.5.3, a mixed approach
+ of both qualitative and quantitative research was applied.
+ Briefly, qualitative research could be the approach to use if the sample
+ size is appropriately small, butu its outcomes are not measurable nor quantifia
+ble.
+ Yet, it offers a complete description and analysis of the topics being
+ examined.
+ Quantitative research focuses on classifying features, counting them and
+ constructing statistical models to explain the observations.
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="30page%">
+<column alignment="center" valignment="top" width="30page%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size larger
+Qualitative
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size larger
+Quantitative
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+The aim is providing detailed, complete descriptions.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+The aim is classifying features, counting them and constructing statistical
+ models to explain the observations.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+Recommended during the early phases of research.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+Recommended in later phases in the research.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+The design emerges as the study unfolds.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+The study is designed carefully before data is collected.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+Data is in the form of words, pictures or objects.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+Data is in the form of numbers and statistics.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+Subjective
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+Objective
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+Time consuming, and less able to generalize to independent data
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+More efficient, and could be cross-validated
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Qualitative versus Quantitative Research
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\size larger
+Research Questions
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+How widespread are the cancers being considered (brain, breast and stomach)?
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+How significant are the symptoms in recognizing the cancers in early stages?
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+How important is it to discover the cancer in an early stage?
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+What are the environmental factors affecting the considered cancers?
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+What are the words most associated to each of the considered cancers?
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+What are the features of each cancer most useful for indexing in a case-based
+ system?
+\end_layout
+
+\begin_layout Enumerate
+
+\size larger
+What are the features most interesting in an MRI/endoscopy?
+\end_layout
+
 \end_body
 \end_document
