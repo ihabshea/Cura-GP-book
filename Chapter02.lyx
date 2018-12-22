@@ -89,7 +89,7 @@ Background and Related Work
 
 \size large
 This project draws upon several diverse fields including bioinformatics,
- computer science, blockchain, nudge behavioral psychology and game theory.
+ computer science, blockchain, nudge behavioural psychology and game theory.
  The purpose of this chapter is to give a general sense of how each of these
  areas affected the project, as well as point to similar projects that gave
  rise to this project.
@@ -98,24 +98,23 @@ This project draws upon several diverse fields including bioinformatics,
 \begin_layout Standard
 
 \size large
-This chapter discusses the approach used to recognize and treat cancer,
+This chapter discusses the approach used to recognise and treat cancer,
  along with motivational incentives for doctors and specialists to willingly
  share their relative data sets.
- 
 \end_layout
 
 \begin_layout Section
 
 \size large
-Behavioral Psychology
+Behavioural Psychology
 \end_layout
 
 \begin_layout Standard
 
 \size large
-Cura's system is particulary interested in nudging,in which small changes
+Cura's system is particulary interested in nudging, in which small changes
  are introduced to an individual's choice set to push individuals towards
- certain behavior without much change to their current routine.
+ certain behaviour without much change to their current routine.
  Usually employed techniques include
 \end_layout
 
@@ -126,7 +125,7 @@ Cura's system is particulary interested in nudging,in which small changes
 Anchoring Bias:
 \series default
  people tend to be heavily biased by the initial data points presented to
- them 
+ them
 \end_layout
 
 \begin_layout Itemize
@@ -136,7 +135,6 @@ Anchoring Bias:
 Availability Bias:
 \series default
  people tend to overestimate the likelihood of things that are easy to remember
- 
 \end_layout
 
 \begin_layout Itemize
@@ -145,7 +143,7 @@ Availability Bias:
 \size large
 Representativeness Bias:
 \series default
- people tend to see patterns when there are none 
+ people tend to see patterns when there are none
 \end_layout
 
 \begin_layout Itemize
@@ -163,7 +161,7 @@ almost all individuals think they are better than average
 \size large
 Loss Aversion:
 \series default
- people tend to prefer avoiding losses over acquiring equivalent gains 
+ people tend to prefer avoiding losses over acquiring equivalent gains
 \end_layout
 
 \begin_layout Itemize
@@ -172,7 +170,7 @@ Loss Aversion:
 \size large
 Status Quo Bias: 
 \series default
-behavioral inertia must be overcome when changing a habit 
+behavioural inertia must be overcome when changing a habit
 \end_layout
 
 \begin_layout Itemize
@@ -182,7 +180,7 @@ behavioral inertia must be overcome when changing a habit
 Framing Effect:
 \series default
  people react to a particular choice in different ways depending on how
- it is presented 
+ it is presented
 \end_layout
 
 \begin_layout Itemize
@@ -192,7 +190,7 @@ Framing Effect:
 Priming Effect: 
 \series default
 people can be influenced to make a certain choice based on what they see
- or experience directly before making their choice 
+ or experience directly before making their choice
 \end_layout
 
 \begin_layout Itemize
@@ -218,7 +216,7 @@ Blockchain technology has been the revolution recently, and the introduction
  of Ethereum was especially revolutionary because it had the goal of building
  decentralized applications set from the beginning, as opposed to Bitcoin,
  that mainly focused on financial transactions.
- Decentralized application, as promising as they are perceived to be, are
+ Decentralized applications, as promising as they are perceived to be, are
  in fact very limited and uncompetitive against traditional centralized
  applications.
 \end_layout
@@ -230,14 +228,24 @@ The use of blockchain in CuraCG's projects is to create an incentive-based
  project to help grow the scientific community built on top of the CuraCG's
  subsystems.
  A special token named CuraToken (CT for short) is issued at a certain rate,
- which is to be discussed in CuraTherapy's white and yellow papers, to incentivi
-ze oncologists to share their data sets whether, especially the ones they
- built prior to them starting to use CuraCBR in order to have an evergrowing
- repository of datasets related to cancer and related diseases for the reasons
- aforementioned including better understanding of cancer on molecular and
- cellular levels.
- The incentivie program employs blockchain research and techniques built
- on behavioral psychology and game theory.
+ which is to be discussed in CuraTherapy's white and yellow papers, 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\size large
+to incentivise oncologists to share their data sets whether, especially
+ the ones they built prior to them starting to use CuraCBR in order to have
+ an evergrowing repository of datasets related to cancer and related diseases
+ for the reasons aforementioned including better understanding of cancer
+ on molecular and cellular levels.
+\end_layout
+
+\end_inset
+
+ The incentive program employs blockchain research and techniques built
+ on behavioural psychology and game theory.
 \end_layout
 
 \begin_layout Section
@@ -260,7 +268,7 @@ Pattern recognition is a mature field that is still very fast growing and
 \begin_layout Standard
 
 \size large
-Pattern recognition, by definition, is the process of recognizing patterns
+Pattern recognition, by definition, is the process of recognising patterns
  and regularities in data.
  It is closely related to machine learning, sometimes even the terms are
  used interchangeably.
@@ -271,7 +279,7 @@ Pattern recognition, by definition, is the process of recognizing patterns
 \begin_layout Standard
 
 \size large
-Different approahces are used in pattern recognition and they could be categoriz
+Different approahces are used in pattern recognition and they could be categoris
 ed into two different categories: the first is done by using labeled 
 \begin_inset Quotes eld
 \end_inset
@@ -282,7 +290,8 @@ training
 
  data, or in other terms: supervised learning.
  In the case where no labeled data are provided, specialized algorithms
- are used to recognize the patterns in a process called unsupervised learning.
+ are used to recognise the patterns in a process called unsupervised learning,
+ which is the second category.
 \end_layout
 
 \begin_layout Section
@@ -315,12 +324,23 @@ Wavelet transform is an effective tool for feature extraction from MR brain
  images, because it allows analysis of images at various levels of resolution
  due to its multi-resolution analytic property.
  However, this technique requires large storage and is computationally expensive.
- However, this technique requires large storage and is computationally expensive.
  In order to reduce the feature vector dimensions and increase the discriminativ
 e power, the principal component analysis (PCA) was used.
- PCA is appealing since it effectively reduces the dimensionality of the
- data and therefore reduces the computational cost of analyzing new data.
- Then, the problem of how to classify on the input data arises.
+ PCA is appealing since it effectively reduces the dimensionality of data
+ and therefore reduces the computational cost of analysing new data.
+ Then, the problem of how to classify 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\size large
+on
+\end_layout
+
+\end_inset
+
+ the input data arises.
 \end_layout
 
 \begin_layout Section
@@ -336,7 +356,7 @@ In recent years, researchers have proposed a lot of approaches for this
  goal, which fall into two categories.
  One category is supervised classification, including support vector machine
  (SVM) and k- nearest neighbors (k-NN).
- The other category is unsupervised classification, including self-organization
+ The other category is unsupervised classification, including self-organisation
  feature map (SOFM) and fuzzy c-means.
  While all these methods achieved good results, and yet the supervised classifie
 r performs better than unsupervised classifier in terms of classification
@@ -352,7 +372,7 @@ Our approach starts first by segmenting the photos and then using wavelet
  transform to extract features, then applying PCA to reduce the features
  extracted before submitting the reduced features to the Kernel Support
  Vector Machine KSVM classifer and finally using K-fold cross validation
- to enhance the generalizations produced by the KSVM.
+ to enhance the generalisations produced by the KSVM.
 \end_layout
 
 \begin_layout Section
@@ -373,12 +393,12 @@ Cancer refers to uncontrollable cells that continuously row and invade bodily
 on of smoked red meat (e.g: hot dogs and sausages), which are classifed as
  IARC Group 1 carcinogens, meaning they do cause cancer in humans.
  Cells can detect and repair DNA damage most of the time, and the body usually
- gets rid of damaged cells trough a process called programmed cell death
+ gets rid of damaged cells through a process called programmed cell death
  but sometimes cancerous cells can bypass this process to grow, divide and
- sprad abnormaly in the tissues of the human body.
+ spread abnormaly in the tissues of the human body.
  Benign tumours are tumours that grow only in one place and usually do not
- grow back if treated, while malignant tumours grow in different places
- and hence they are more dangerous.
+ grow back if treated, while malignant tumours grow in and travel to different
+ places and hence they are more dangerous.
 \end_layout
 
 \begin_layout Subsection
@@ -402,10 +422,11 @@ Complete Blood Count (CBC)
 \begin_layout Standard
 
 \size large
-Sample of the blood is tested to measure the amount of various type of blood
- cells, usually this method is used to detect blood cancer if a certain
- blood cell type has too many or too few blood cells or by the existence
- of abnormal cells.
+A sample of blood is tested to measure the amount of various types of blood
+ cells.
+ Usually this method is used to detect blood cancer if a certain blood cell
+ type has too many or too few blood cells or by the existence of abnormal
+ cells.
  Usually, bone marrow biopsy could help confirm the diagnosis of a blood
  cancer.
 \end_layout
@@ -419,19 +440,29 @@ Tumour Marker Tests
 \begin_layout Standard
 
 \size large
-Although tumour markers are typically chemicals made by tumour 
+Although tumour markers are typically chemicals made by tumour
 \end_layout
 
 \begin_layout Standard
 
 \size large
-produced by some normal cells, and the levels of which maybe higher in noncancer
-ous conditions.
+produced by some normal cells, and the levels of which 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\size large
+maybe
+\end_layout
+
+\end_inset
+
+ higher in noncancerous conditions.
  This is usually considered a problem for tumour marker tests to detect
  and diagnose cancer.
  It is rare to only use such a method alone to confirm the diagnosis of
  cancer.
- 
 \end_layout
 
 \begin_layout Standard
@@ -439,8 +470,8 @@ ous conditions.
 \size large
 Examples of such tests include prostate-specific antigen for prostate cancer,
  calcionin for medullary thyroid cancer, alpha-fetoprotein (AFP) for liver
- canceror and human chorionic gonadotropin (HCG) for germ cell tumors, such
- as testicular cancer and ovarian cancer.
+ cancer or and human chorionic gonadotropin (HCG) for germ cell tumours,
+ such as testicular cancer and ovarian cancer.
  That said, use of tumour marker tests is still highly controversial.
 \end_layout
 
@@ -454,7 +485,7 @@ Biopsy
 
 \size large
 A test in which a sample of cells or a piece of a tissue is removed and
- analyzed in a laboratory with the purpose of diagnosing cancer.
+ analysed in a laboratory with the purpose of diagnosing cancer.
  There are different types of Biopsy tests including:
 \end_layout
 
@@ -464,19 +495,16 @@ A test in which a sample of cells or a piece of a tissue is removed and
 \size large
 Bone Marrow Biopsy:
 \series default
- as mentioned previously this test is specially important in diagnosis blood
- cancers.
- Bone marrow is a spongy material inside the larger bones in the human body
- in which blood cells are produced.
- Analyzing a sample could help reveal the problem.
+ as mentioned previously this test is especially important in diagnosing
+ blood cancers.
 \begin_inset Newline newline
 \end_inset
 
 Bone marrow is the spongy material inside some of your larger bones where
  blood cells are produced.
- Analyzing a sample of bone marrow may reveal what's causing your blood
+ Analysing a sample of bone marrow may reveal what's causing your blood
  problem.
- A bone marrow biopsy could help diagnose malignant tumours that traveled
+ A bone marrow biopsy could help diagnose malignant tumours that travelled
  to the bone marrow.
 \end_layout
 
@@ -486,8 +514,7 @@ Bone marrow is the spongy material inside some of your larger bones where
 \size large
 Endoscopic biopsy: 
 \series default
-using a thin, flexible tube with a light on its end to see the inside the
- body.
+using a thin, flexible tube with a light on its end to see inside the body.
  The tube usually takes small samples of tissues for later analysis.
  An endoscopic biopsy could be inserted through the mouth, rectum, urinary
  tract or a small incision through the skin.
@@ -499,7 +526,7 @@ using a thin, flexible tube with a light on its end to see the inside the
 \size large
 Needle biopsy: 
 \series default
-using a needle cells from suspicious areas could be extracted.
+using a needle, cells from suspicious areas could be extracted.
  A needle biopsy may be more suitable for tumours that can be felt through
  skin such as suspicious breast lumps and enlarged lymph nodes.
 \end_layout
@@ -581,8 +608,19 @@ Loss of balance is usually associated with a tumour in the cerebellum.
 \begin_layout Enumerate
 
 \size large
-Complete or partial loss of vision is associated to a tumour in the occipital
- lobe or temporal lobe of the cerebrum.
+Complete or partial loss of vision is associated 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\size large
+to
+\end_layout
+
+\end_inset
+
+ a tumour in the occipital lobe or temporal lobe of the cerebrum.
 \end_layout
 
 \begin_deeper
@@ -598,21 +636,21 @@ Changes in speech, hearing, memory, or emotional state, such as aggressiveness
 \begin_layout Enumerate
 
 \size large
-Inability to look upward can be because of a pineal gland tumor.
+Inability to look upward can be because of a pineal gland tumour.
 \end_layout
 
 \begin_layout Enumerate
 
 \size large
-Lactation and altered menstrual periods in women are linked tos a pituitary
- tumor.
+Lactation and altered menstrual periods in women are linked to a pituitary
+ tumour.
 \end_layout
 
 \begin_layout Enumerate
 
 \size large
 Difficulty swallowing, facial weakness or double vision is a symptom of
- a tumor in the brain stem.
+ a tumour in the brain stem.
 \end_layout
 
 \begin_layout Subsubsection
@@ -702,7 +740,7 @@ Pain in the breast that doesn't go away.
 \begin_layout Enumerate
 
 \size large
-A lump that feels like a thickening in the breast.
+A lump that feels like thickening in the breast.
 \end_layout
 
 \begin_layout Subsection
@@ -1005,7 +1043,7 @@ Lung (Including Bronchus)
 \begin_layout Plain Layout
 
 \size large
-Melanoma 
+Melanoma
 \end_layout
 
 \end_inset
@@ -1265,7 +1303,7 @@ The most conventional tool of signal analysis is Fourier transform (FT),
  a Fourier spectrum.
  Thus, the quality of the classification decreases as time information is
  lost.
- Gabor adapted the FT to analyze only a small section of the signal at a
+ Gabor adapted the FT to analyse only a small section of the signal at a
  time.
  The technique is called windowing or short time Fourier transform (STFT).
  It adds a window of particular shape to the signal.
@@ -1350,8 +1388,8 @@ Here, the wavelet
 \end_inset
 
  is calculated from the mother wavelet ψ(t) by translation and dilation:
- a is the dilation factor and b the translation parameter (both real positive
- numbers).
+ a is the dilation factor and b is the translation parameter (both real
+ positive numbers).
  There are several different kinds of wavelets which have gained popularity
  throughout the development of wavelet analysis.
  The most important wavelet is the Harr wavelet, which is the simplest one
@@ -1361,7 +1399,7 @@ Here, the wavelet
 \begin_layout Standard
 
 \size large
-Formula (1) can be discretized by restraining a and b to a discrete lattice
+Formula (1) can be discretised by restraining a and b to a discrete lattice
  (
 \begin_inset Formula $a=2^{b}\,\,\&\,\,a>0$
 \end_inset
@@ -1399,7 +1437,7 @@ Here
  g(n) and h(n) denote for the low-pass filter and high-pass filter, respectively.
  j and k represent the wavelet scale and translation factors, respectively.
  DS operator means the downsampling.
- Formulas (3) and (4) are the fundamental of wavelet decomposes.
+ Formulas (3) and (4) are the fundamentals of wavelet decomposes.
  It decomposes signal x(n) into two signals, the approximation coefficients
  ca(n) and the detail components cd(n).
  This procedure is called one-level decompose.
@@ -1435,17 +1473,17 @@ In case of 2D images, the DWT is applied to each dimension separately.
 The LL subband can be regarded as the approximation component of the image,
  while the LH, HL, and HH subbands can be regarded as the detailed components
  of the image.
- As the level of decomposition increased, compacter but coarser approximation
- component was obtained.
+ As the level of decomposition increased, a more compact but coarse approximatio
+n component was obtained.
  Thus, wavelets provide a simple hierarchical framework for interpreting
  the image information.
- In our algorithm, level-3 decomposition via Harr wavelet was utilized to
+ In our algorithm, level-3 decomposition via Harr wavelet was utilised to
  extract features.
  The border distortion is a technique issue related to digital filter which
  is commonly used in the DWT.
  As we filter the image, the mask will extend beyond the image at the edges,
  so the solution is to pad the pixels outside the images.
- In our algorithm, symmetric padding method was utilized to calculate the
+ In our algorithm, symmetric padding method was utilised to calculate the
  boundary value.
 \end_layout
 
@@ -1471,20 +1509,30 @@ Excessive features increase computation times and storage memory.
  variations.
  It is achieved by transforming the data set to a new set of ordered variables
  according to their variances or importance.
- This technique has three effects: it orthogonalizes the components of the
- input vectors so that uncorrelated with each other, it orders the resulting
- orthogonal components so that those with the largest variation come first,
- and eliminates those components contributing the least to the variation
- in the data set.
+ This technique has three effects: it orthogonalises the components of the
+ input vectors 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\size large
+so that uncorrelated with each other
+\end_layout
+
+\end_inset
+
+, it orders the resulting orthogonal components so that those with the largest
+ variation come first, and eliminates those components contributing the
+ least to the variation in the data set.
 \end_layout
 
 \begin_layout Standard
 
 \size large
-It should be noted that the input vectors be normalized to have zero mean
- and unity variance before performing PCA.
+It should be noted that the input vectors be normalized before performing
+ PCA to have zero mean and unity variance.
  The normalization is a standard procedure.
- 
 \end_layout
 
 \begin_layout Section
@@ -1509,8 +1557,8 @@ The introduction of support vector machine (SVM) is a landmark in the field
 
 \size large
 work very well in practice and have been remarkably successful in such diverse
- fields as natural language categorization, bioinformatics and computer
- vision; 
+ fields as natural language categorisation, bioinformatics and computer
+ vision;
 \end_layout
 
 \begin_layout Enumerate
@@ -1522,7 +1570,7 @@ have few tunable parameters; and
 \begin_layout Enumerate
 
 \size large
-training often involves convex quadratic optimization.
+training often involves convex quadratic optimisation.
 \end_layout
 
 \begin_layout Standard
@@ -1540,7 +1588,7 @@ Linear SVM
 \begin_layout Standard
 
 \size large
-Givenn a p-dimensional N-size training data set that can be described as
+Given a p-dimensional N-size training data set that can be described as
  follows:
 \end_layout
 
@@ -1639,7 +1687,7 @@ where
 \begin_inset Formula $w\cdot x$
 \end_inset
 
- is the dot product of the data vector x and w the normal vector to the
+ is the dot product of the data vector x and w is the normal vector to the
  hyperplane.
 \end_layout
 
@@ -1647,8 +1695,8 @@ where
 
 \size large
 In order to maximize the margin between the two horizontal hyperplanes (-1,
- 1, i.e: benign and malignant) while still separate the data we need to define
- the two hyperplanes as follows:
+ 1, i.e: benign and malignant) while still separating the data we need to
+ define the two hyperplanes as follows:
 \end_layout
 
 \begin_layout Standard
@@ -1674,7 +1722,7 @@ Cross Validation through K-Fold
 
 \size large
 Cross validation is employing one of various techniques to test how the
- results of a statistical analysis will generalize to an independent data
+ results of a statistical analysis will generalise to an independent data
  set.
  It is mainly used in an application where the goal is prediction.
 \end_layout
@@ -1734,7 +1782,7 @@ K-Fold Cross Valdiation
 \size large
 In K-Fold cross validation, the sample is randomly partitioned into k equal-size
 d subsamples, then one of the k subsamples is used as the validation data
- set for testing, and the remainging k-1 are used as the training data.
+ set for testing, and the remaining k-1 are used as the training data.
  The validation is repeated k times, with each subsamples used exactly once
  as the validation data set.
  Finally, the k results are averaged to get a single estimate.
