@@ -81,13 +81,13 @@
 
 \begin_layout Chapter
 
-\size large
+\size larger
 Background and Related Work
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 This project draws upon several diverse fields including bioinformatics,
  computer science, blockchain, nudge behavioural psychology and game theory.
  The purpose of this chapter is to give a general sense of how each of these
@@ -97,21 +97,19 @@ This project draws upon several diverse fields including bioinformatics,
 
 \begin_layout Standard
 
-\size large
+\size larger
 This chapter discusses the approach used to recognise and treat cancer,
  along with motivational incentives for doctors and specialists to willingly
  share their relative data sets.
 \end_layout
 
 \begin_layout Section
-
-\size large
 Behavioural Psychology
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 Cura's system is particulary interested in nudging, in which small changes
  are introduced to an individual's choice set to push individuals towards
  certain behaviour without much change to their current routine.
@@ -121,7 +119,7 @@ Cura's system is particulary interested in nudging, in which small changes
 \begin_layout Itemize
 
 \series bold
-\size large
+\size larger
 Anchoring Bias:
 \series default
  people tend to be heavily biased by the initial data points presented to
@@ -131,7 +129,7 @@ Anchoring Bias:
 \begin_layout Itemize
 
 \series bold
-\size large
+\size larger
 Availability Bias:
 \series default
  people tend to overestimate the likelihood of things that are easy to remember
@@ -140,7 +138,7 @@ Availability Bias:
 \begin_layout Itemize
 
 \series bold
-\size large
+\size larger
 Representativeness Bias:
 \series default
  people tend to see patterns when there are none
@@ -149,7 +147,7 @@ Representativeness Bias:
 \begin_layout Itemize
 
 \series bold
-\size large
+\size larger
 Overestimation: 
 \series default
 almost all individuals think they are better than average
@@ -158,7 +156,7 @@ almost all individuals think they are better than average
 \begin_layout Itemize
 
 \series bold
-\size large
+\size larger
 Loss Aversion:
 \series default
  people tend to prefer avoiding losses over acquiring equivalent gains
@@ -167,7 +165,7 @@ Loss Aversion:
 \begin_layout Itemize
 
 \series bold
-\size large
+\size larger
 Status Quo Bias: 
 \series default
 behavioural inertia must be overcome when changing a habit
@@ -176,7 +174,7 @@ behavioural inertia must be overcome when changing a habit
 \begin_layout Itemize
 
 \series bold
-\size large
+\size larger
 Framing Effect:
 \series default
  people react to a particular choice in different ways depending on how
@@ -186,7 +184,7 @@ Framing Effect:
 \begin_layout Itemize
 
 \series bold
-\size large
+\size larger
 Priming Effect: 
 \series default
 people can be influenced to make a certain choice based on what they see
@@ -196,7 +194,7 @@ people can be influenced to make a certain choice based on what they see
 \begin_layout Itemize
 
 \series bold
-\size large
+\size larger
 Hyperbolic Discounting: 
 \series default
 people prefer rewards that happen sooner rather than later, even if the
@@ -204,14 +202,12 @@ people prefer rewards that happen sooner rather than later, even if the
 \end_layout
 
 \begin_layout Section
-
-\size large
 Blockchain
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 Blockchain technology has been the revolution recently, and the introduction
  of Ethereum was especially revolutionary because it had the goal of building
  decentralized applications set from the beginning, as opposed to Bitcoin,
@@ -223,7 +219,7 @@ Blockchain technology has been the revolution recently, and the introduction
 
 \begin_layout Standard
 
-\size large
+\size larger
 The use of blockchain in CuraCG's projects is to create an incentive-based
  project to help grow the scientific community built on top of the CuraCG's
  subsystems.
@@ -249,14 +245,12 @@ to incentivise oncologists to share their data sets whether, especially
 \end_layout
 
 \begin_layout Section
-
-\size large
 Pattern Recognition
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 Pattern recognition is a mature field that is still very fast growing and
  exciting.
  It spans different areas including computer vision, image processing, text
@@ -267,7 +261,7 @@ Pattern recognition is a mature field that is still very fast growing and
 
 \begin_layout Standard
 
-\size large
+\size larger
 Pattern recognition, by definition, is the process of recognising patterns
  and regularities in data.
  It is closely related to machine learning, sometimes even the terms are
@@ -278,7 +272,7 @@ Pattern recognition, by definition, is the process of recognising patterns
 
 \begin_layout Standard
 
-\size large
+\size larger
 Different approahces are used in pattern recognition and they could be categoris
 ed into two different categories: the first is done by using labeled 
 \begin_inset Quotes eld
@@ -295,14 +289,12 @@ training
 \end_layout
 
 \begin_layout Section
-
-\size large
 Magnetic Resonance Imaging
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 Magnetic resonance imaging (MRI) is an imaging technique that produces high
  quality images of the anatomical structures of the human body, especially
  in the brain, and provides rich information for clinical diagnosis and
@@ -312,14 +304,12 @@ Magnetic resonance imaging (MRI) is an imaging technique that produces high
 \end_layout
 
 \begin_layout Section
-
-\size large
 Wavelet Transform
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 Wavelet transform is an effective tool for feature extraction from MR brain
  images, because it allows analysis of images at various levels of resolution
  due to its multi-resolution analytic property.
@@ -344,14 +334,12 @@ on
 \end_layout
 
 \begin_layout Section
-
-\size large
 Support Vector Machines
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 In recent years, researchers have proposed a lot of approaches for this
  goal, which fall into two categories.
  One category is supervised classification, including support vector machine
@@ -367,7 +355,7 @@ r performs better than unsupervised classifier in terms of classification
 
 \begin_layout Standard
 
-\size large
+\size larger
 Our approach starts first by segmenting the photos and then using wavelet
  transform to extract features, then applying PCA to reduce the features
  extracted before submitting the reduced features to the Kernel Support
@@ -376,14 +364,12 @@ Our approach starts first by segmenting the photos and then using wavelet
 \end_layout
 
 \begin_layout Section
-
-\size large
 Cancer
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 Cancer refers to uncontrollable cells that continuously row and invade bodily
  tissues.
  Cells may turn cancerous due to different factors including accumulation
@@ -402,12 +388,14 @@ on of smoked red meat (e.g: hot dogs and sausages), which are classifed as
 \end_layout
 
 \begin_layout Subsection
+
+\size larger
 Cancer Detection
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 There are several ways by which patients can know whether or not they have
  cancer.
  Examples of which will be discussed in this section.
@@ -415,13 +403,13 @@ There are several ways by which patients can know whether or not they have
 
 \begin_layout Subsubsection
 
-\size large
+\size larger
 Complete Blood Count (CBC)
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 A sample of blood is tested to measure the amount of various types of blood
  cells.
  Usually this method is used to detect blood cancer if a certain blood cell
@@ -433,19 +421,19 @@ A sample of blood is tested to measure the amount of various types of blood
 
 \begin_layout Subsubsection
 
-\size large
+\size larger
 Tumour Marker Tests
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 Although tumour markers are typically chemicals made by tumour
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 produced by some normal cells, and the levels of which 
 \begin_inset Note Note
 status open
@@ -467,7 +455,7 @@ maybe
 
 \begin_layout Standard
 
-\size large
+\size larger
 Examples of such tests include prostate-specific antigen for prostate cancer,
  calcionin for medullary thyroid cancer, alpha-fetoprotein (AFP) for liver
  cancer or and human chorionic gonadotropin (HCG) for germ cell tumours,
@@ -477,13 +465,13 @@ Examples of such tests include prostate-specific antigen for prostate cancer,
 
 \begin_layout Subsubsection
 
-\size large
+\size larger
 Biopsy
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 A test in which a sample of cells or a piece of a tissue is removed and
  analysed in a laboratory with the purpose of diagnosing cancer.
  There are different types of Biopsy tests including:
@@ -492,7 +480,7 @@ A test in which a sample of cells or a piece of a tissue is removed and
 \begin_layout Enumerate
 
 \series bold
-\size large
+\size larger
 Bone Marrow Biopsy:
 \series default
  as mentioned previously this test is especially important in diagnosing
@@ -511,7 +499,7 @@ Bone marrow is the spongy material inside some of your larger bones where
 \begin_layout Enumerate
 
 \series bold
-\size large
+\size larger
 Endoscopic biopsy: 
 \series default
 using a thin, flexible tube with a light on its end to see inside the body.
@@ -523,7 +511,7 @@ using a thin, flexible tube with a light on its end to see inside the body.
 \begin_layout Enumerate
 
 \series bold
-\size large
+\size larger
 Needle biopsy: 
 \series default
 using a needle, cells from suspicious areas could be extracted.
@@ -534,7 +522,7 @@ using a needle, cells from suspicious areas could be extracted.
 \begin_layout Enumerate
 
 \series bold
-\size large
+\size larger
 Skin biopsy: 
 \series default
 involves removing cells from the surface of the body.
@@ -542,72 +530,74 @@ involves removing cells from the surface of the body.
 \end_layout
 
 \begin_layout Subsection
+
+\size larger
 Symptoms
 \end_layout
 
 \begin_layout Subsubsection
 
-\size large
+\size larger
 Symptoms of Brain Cancer:
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Severe headache whose onset is usually in the early morning.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Seizures, including motor seizures.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Changes to personality and/or memory.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Vomitting and nausea.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Fatigue.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Problems falling asleep
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Problems with memory.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Changes to motor abilities such as walking.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Loss of balance is usually associated with a tumour in the cerebellum.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Complete or partial loss of vision is associated 
 \begin_inset Note Note
 status open
@@ -626,7 +616,7 @@ to
 \begin_deeper
 \begin_layout Enumerate
 
-\size large
+\size larger
 Changes in speech, hearing, memory, or emotional state, such as aggressiveness
  and problems understanding or retrieving words can be attributed to a tumor
  in the frontal and temporal lobe of the cerebrum.
@@ -635,121 +625,123 @@ Changes in speech, hearing, memory, or emotional state, such as aggressiveness
 \end_deeper
 \begin_layout Enumerate
 
-\size large
+\size larger
 Inability to look upward can be because of a pineal gland tumour.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Lactation and altered menstrual periods in women are linked to a pituitary
  tumour.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Difficulty swallowing, facial weakness or double vision is a symptom of
  a tumour in the brain stem.
 \end_layout
 
 \begin_layout Subsubsection
 
-\size large
+\size larger
 Symptoms of Stomach Cancer
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Vomitting and nausea.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Fatigue.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Indigestion.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Loss of apetite.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Feeling that food is stuck in throat while eating.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Unexplained weight loss.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Diahrrea or constipation.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Vomitting blood in advanced stages.
 \end_layout
 
 \begin_layout Subsubsection
 
-\size large
+\size larger
 Symptoms of Breast Cancer
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Change in the size of the breast.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Bloody nipple discharge that occurs suddenly and only in one nipple.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 A nipple turned inward, a sore in the nipple area or any physical changes.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Pain in the breast that doesn't go away.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 A lump that feels like thickening in the breast.
 \end_layout
 
 \begin_layout Subsection
+
+\size larger
 Cancer Statistics
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 \begin_inset Tabular
 <lyxtabular version="3" rows="13" columns="3">
 <features booktabs="true" islongtable="true" longtabularalignment="center">
@@ -762,7 +754,7 @@ Cancer Statistics
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Cancer Type
 \end_layout
 
@@ -773,7 +765,7 @@ Cancer Type
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Estimated Cases
 \end_layout
 
@@ -784,7 +776,7 @@ Estimated Cases
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Estimated Deaths
 \end_layout
 
@@ -797,7 +789,7 @@ Estimated Deaths
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Bladder
 \end_layout
 
@@ -808,7 +800,7 @@ Bladder
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 81,190 
 \end_layout
 
@@ -819,7 +811,7 @@ Bladder
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 17,240 
 \end_layout
 
@@ -832,7 +824,7 @@ Bladder
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Breast (Female – Male) 
 \end_layout
 
@@ -843,7 +835,7 @@ Breast (Female – Male)
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 266,120 – 2,550
 \end_layout
 
@@ -854,7 +846,7 @@ Breast (Female – Male)
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
  40,920 – 480
 \end_layout
 
@@ -867,7 +859,7 @@ Breast (Female – Male)
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Colon and Rectal (Combined) 
 \end_layout
 
@@ -878,7 +870,7 @@ Colon and Rectal (Combined)
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
  140,250 
 \end_layout
 
@@ -889,7 +881,7 @@ Colon and Rectal (Combined)
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 50,630
 \end_layout
 
@@ -902,7 +894,7 @@ Colon and Rectal (Combined)
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Endometrial 
 \end_layout
 
@@ -913,7 +905,7 @@ Endometrial
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 63,230
 \end_layout
 
@@ -924,7 +916,7 @@ Endometrial
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 11,350 
 \end_layout
 
@@ -937,7 +929,7 @@ Endometrial
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Kidney (Renal Cell and Renal Pelvis) Cancer 
 \end_layout
 
@@ -948,7 +940,7 @@ Kidney (Renal Cell and Renal Pelvis) Cancer
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 65,340
 \end_layout
 
@@ -959,7 +951,7 @@ Kidney (Renal Cell and Renal Pelvis) Cancer
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 14,970
 \end_layout
 
@@ -972,7 +964,7 @@ Kidney (Renal Cell and Renal Pelvis) Cancer
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Leukemia (All Types) 
 \end_layout
 
@@ -983,7 +975,7 @@ Leukemia (All Types)
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 60,300
 \end_layout
 
@@ -994,7 +986,7 @@ Leukemia (All Types)
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 24,370 
 \end_layout
 
@@ -1007,7 +999,7 @@ Leukemia (All Types)
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Lung (Including Bronchus) 
 \end_layout
 
@@ -1018,7 +1010,7 @@ Lung (Including Bronchus)
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 234,030
 \end_layout
 
@@ -1029,7 +1021,7 @@ Lung (Including Bronchus)
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 154,050 
 \end_layout
 
@@ -1042,7 +1034,7 @@ Lung (Including Bronchus)
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Melanoma
 \end_layout
 
@@ -1053,7 +1045,7 @@ Melanoma
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 91,270 
 \end_layout
 
@@ -1064,7 +1056,7 @@ Melanoma
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 9,320 
 \end_layout
 
@@ -1077,7 +1069,7 @@ Melanoma
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Non-Hodgkin Lymphoma 
 \end_layout
 
@@ -1088,7 +1080,7 @@ Non-Hodgkin Lymphoma
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 74,680
 \end_layout
 
@@ -1099,7 +1091,7 @@ Non-Hodgkin Lymphoma
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
  19,910 
 \end_layout
 
@@ -1112,7 +1104,7 @@ Non-Hodgkin Lymphoma
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Pancreatic 
 \end_layout
 
@@ -1123,7 +1115,7 @@ Pancreatic
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 55,440
 \end_layout
 
@@ -1134,7 +1126,7 @@ Pancreatic
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 44,330 
 \end_layout
 
@@ -1147,7 +1139,7 @@ Pancreatic
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Prostate 
 \end_layout
 
@@ -1158,7 +1150,7 @@ Prostate
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 164,690 
 \end_layout
 
@@ -1169,7 +1161,7 @@ Prostate
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 29,430 
 \end_layout
 
@@ -1182,7 +1174,7 @@ Prostate
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 Thyroid 
 \end_layout
 
@@ -1193,7 +1185,7 @@ Thyroid
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 53,990
 \end_layout
 
@@ -1204,7 +1196,7 @@ Thyroid
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
  2,060 
 \end_layout
 
@@ -1224,14 +1216,14 @@ MRI Classification Process
 
 \begin_layout Standard
 
-\size large
+\size larger
 Overall our method involves three stages:
 \end_layout
 
 \begin_layout Enumerate
 
 \series bold
-\size large
+\size larger
 Preprocessing: 
 \series default
 feature extraction and feature reduction.
@@ -1239,19 +1231,19 @@ feature extraction and feature reduction.
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 SVM training and cross-validation.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 SVM classification.
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 \begin_inset Float figure
 placement H
 wide false
@@ -1260,7 +1252,7 @@ status open
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 \begin_inset Graphics
 	filename /home/ihab/Downloads/preprocessing.png
 	scale 200
@@ -1285,14 +1277,12 @@ Methodology
 \end_layout
 
 \begin_layout Section
-
-\size large
 Feature Extraction
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 The most conventional tool of signal analysis is Fourier transform (FT),
  which breaks down a time domain signal into constituent sinusoids of different
  frequencies, thus, transforming the signal from time domain to frequency
@@ -1328,21 +1318,19 @@ The most conventional tool of signal analysis is Fourier transform (FT),
 \end_layout
 
 \begin_layout Section
-
-\size large
 Discrete Wavelet Transform
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 The discrete wavelet transform (DWT) is a powerful implementation of the
  WT using the dyadic scales and positions.
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 The fundamentals of DWT are introduced as follows.
  Suppose x(t) is a square-integrable function, then the continuous WT of
  x(t) relative to a given wavelet ψ(t) is defined as
@@ -1350,7 +1338,7 @@ The fundamentals of DWT are introduced as follows.
 
 \begin_layout Standard
 
-\size large
+\size larger
 \begin_inset Formula 
 \begin{equation}
 W_{\varPsi}(a,b)={\displaystyle \int_{-\infty}^{\infty}x(t)\varPsi_{a,b}(t)\,dt}
@@ -1363,13 +1351,13 @@ W_{\varPsi}(a,b)={\displaystyle \int_{-\infty}^{\infty}x(t)\varPsi_{a,b}(t)\,dt}
 
 \begin_layout Standard
 
-\size large
+\size larger
 where 
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 \begin_inset Formula 
 \begin{equation}
 \varPsi_{a,b}(t)=\frac{1}{\sqrt{a}}\varPsi(\frac{t-a}{b})
@@ -1382,7 +1370,7 @@ where
 
 \begin_layout Standard
 
-\size large
+\size larger
 Here, the wavelet 
 \begin_inset Formula $\varPsi_{a,b}(t)$
 \end_inset
@@ -1398,7 +1386,7 @@ Here, the wavelet
 
 \begin_layout Standard
 
-\size large
+\size larger
 Formula (1) can be discretised by restraining a and b to a discrete lattice
  (
 \begin_inset Formula $a=2^{b}\,\,\&\,\,a>0$
@@ -1409,7 +1397,7 @@ Formula (1) can be discretised by restraining a and b to a discrete lattice
 
 \begin_layout Standard
 
-\size large
+\size larger
 \begin_inset Formula 
 \begin{align}
 ca_{j,k}(n)= & DS[{\displaystyle \sum_{n}x(n)g_{j}^{*}(n-2^{j}k)]}\\
@@ -1423,7 +1411,7 @@ cd_{j,k}(n)= & DS[{\displaystyle \sum_{n}x(n)h_{j}^{*}(n-2^{j}k)]}
 
 \begin_layout Standard
 
-\size large
+\size larger
 Here 
 \begin_inset Formula $ca_{j,k}$
 \end_inset
@@ -1445,7 +1433,7 @@ Here
 
 \begin_layout Standard
 
-\size large
+\size larger
 The above decomposition process can be iterated with successive approximations
  being decomposed in turn, so that one signal is broken down into various
  levels of resolution.
@@ -1454,13 +1442,13 @@ The above decomposition process can be iterated with successive approximations
 
 \begin_layout Subsubsection
 
-\size large
+\size larger
 2D DWT
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 In case of 2D images, the DWT is applied to each dimension separately.
  Consequently, there are 4 sub-band (LL, LH, HH, and HL) images at each
  scale.
@@ -1469,7 +1457,7 @@ In case of 2D images, the DWT is applied to each dimension separately.
 
 \begin_layout Standard
 
-\size large
+\size larger
 The LL subband can be regarded as the approximation component of the image,
  while the LH, HL, and HH subbands can be regarded as the detailed components
  of the image.
@@ -1492,14 +1480,12 @@ n component was obtained.
 \end_layout
 
 \begin_layout Section
-
-\size large
 Feature Reduction
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 Excessive features increase computation times and storage memory.
  Furthermore, they sometimes make classification more complicated, which
  is called the curse of dimensionality.
@@ -1529,21 +1515,19 @@ so that uncorrelated with each other
 
 \begin_layout Standard
 
-\size large
+\size larger
 It should be noted that the input vectors be normalized before performing
  PCA to have zero mean and unity variance.
  The normalization is a standard procedure.
 \end_layout
 
 \begin_layout Section
-
-\size large
 Classification using Kernel Support Vector Machine
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 The introduction of support vector machine (SVM) is a landmark in the field
  of machine learning.
  The advantages of SVMs include high accuracy, elegant mathematical tractability
@@ -1555,7 +1539,7 @@ The introduction of support vector machine (SVM) is a landmark in the field
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 work very well in practice and have been remarkably successful in such diverse
  fields as natural language categorisation, bioinformatics and computer
  vision;
@@ -1563,38 +1547,40 @@ work very well in practice and have been remarkably successful in such diverse
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 have few tunable parameters; and
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 training often involves convex quadratic optimisation.
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 Hence, solutions are global and usually unique, thus avoiding the convergence
  to local minima exhibited by other statistical learning systems, such as
  neural networks.
 \end_layout
 
 \begin_layout Subsection
+
+\size larger
 Linear SVM
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 Given a p-dimensional N-size training data set that can be described as
  follows:
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 \begin_inset Formula 
 \[
 \{(x_{n},y_{n})|x_{n}\in R^{p},y_{n}=\{-1,1\}\}
@@ -1607,7 +1593,7 @@ Given a p-dimensional N-size training data set that can be described as
 
 \begin_layout Standard
 
-\size large
+\size larger
 where 
 \begin_inset Formula $x_{n}$
 \end_inset
@@ -1622,7 +1608,7 @@ is a p-dimensional vector and
 
 \begin_layout Standard
 
-\size large
+\size larger
 \begin_inset Float figure
 placement H
 wide false
@@ -1631,7 +1617,7 @@ status open
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 \begin_inset Graphics
 	filename /home/ihab/Pictures/Screenshot from 2018-12-14 17-14-08.png
 	scale 150
@@ -1643,7 +1629,7 @@ status open
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1662,14 +1648,14 @@ Maximum Margin Hyperplane
 
 \begin_layout Standard
 
-\size large
+\size larger
 The maximum margin hyperplane which divides the two classes is the optimal
  SVM needed to solve this problem which can be of the form:
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 \begin_inset Formula 
 \[
 w\cdot x-b=0
@@ -1682,7 +1668,7 @@ w\cdot x-b=0
 
 \begin_layout Standard
 
-\size large
+\size larger
 where 
 \begin_inset Formula $w\cdot x$
 \end_inset
@@ -1693,7 +1679,7 @@ where
 
 \begin_layout Standard
 
-\size large
+\size larger
 In order to maximize the margin between the two horizontal hyperplanes (-1,
  1, i.e: benign and malignant) while still separating the data we need to
  define the two hyperplanes as follows:
@@ -1701,7 +1687,7 @@ In order to maximize the margin between the two horizontal hyperplanes (-1,
 
 \begin_layout Standard
 
-\size large
+\size larger
 \begin_inset Formula 
 \[
 w\cdot x-b=\pm1
@@ -1713,14 +1699,12 @@ w\cdot x-b=\pm1
 \end_layout
 
 \begin_layout Section
-
-\size large
 Cross Validation through K-Fold
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 Cross validation is employing one of various techniques to test how the
  results of a statistical analysis will generalise to an independent data
  set.
@@ -1729,7 +1713,7 @@ Cross validation is employing one of various techniques to test how the
 
 \begin_layout Standard
 
-\size large
+\size larger
 In a prediction problem, the model is given a set of known data (i.e: training
  data set) on which training is run, then it is given a set of first-seen
  data, i.e: data that was not used in estimating the model, on which the
@@ -1739,7 +1723,7 @@ In a prediction problem, the model is given a set of known data (i.e: training
 
 \begin_layout Standard
 
-\size large
+\size larger
 \begin_inset Float figure
 placement H
 wide false
@@ -1748,7 +1732,7 @@ status open
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 \begin_inset Graphics
 	filename /home/ihab/Downloads/K-fold_cross_validation_EN.jpg
 	scale 56
@@ -1760,7 +1744,7 @@ status open
 
 \begin_layout Plain Layout
 
-\size large
+\size larger
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1779,7 +1763,7 @@ K-Fold Cross Valdiation
 
 \begin_layout Standard
 
-\size large
+\size larger
 In K-Fold cross validation, the sample is randomly partitioned into k equal-size
 d subsamples, then one of the k subsamples is used as the validation data
  set for testing, and the remaining k-1 are used as the training data.
@@ -1791,35 +1775,35 @@ d subsamples, then one of the k subsamples is used as the validation data
 
 \begin_layout Standard
 
-\size large
+\size larger
 The advantages of such an approach include:
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 All observations are used both for validation and training.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Each subsample is used exactly once for validation.
 \end_layout
 
 \begin_layout Section
-
-\size large
 Similar Work
 \end_layout
 
 \begin_layout Subsection
+
+\size larger
 ADA
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 ADA is a smartphone application NLP-based chatbot whose purpose is to help
  patients diagnose what disease they might have by posing some questions
  about symptoms so it can reach a conclusion of what disease you may have
@@ -1828,65 +1812,69 @@ ADA is a smartphone application NLP-based chatbot whose purpose is to help
 
 \begin_layout Subsubsection
 
-\size large
+\size larger
 Advantages:
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Free.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Easy to use.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 The plausible conclusion will be shown at the end of each session based
  on proper analysis of the answers provided.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Suggestions of actions the patient should take are presented.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Explanation facilities.
 \end_layout
 
 \begin_layout Subsection*
+
+\size larger
 Disadvantages:
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Not as flexible as might be needed.
  Symptoms have to be written correctly.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Not a very friendly user experience.
 \end_layout
 
 \begin_layout Subsection
+
+\size larger
 CareZone
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 CareZone can manage medications and doctor’s instructions.
  Managing prescriptions, medications and health in one place, and the applicatio
 n makes sure you always have an up-to-date list of your or your loved one’s
@@ -1905,66 +1893,68 @@ n makes sure you always have an up-to-date list of your or your loved one’s
 
 \begin_layout Subsubsection
 
-\size large
+\size larger
 Advantages:
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Sleep journal to keep track of your sleep habits.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Medications journal.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Medication reminders.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Tracking options for ailments.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Organised.
 \end_layout
 
 \begin_layout Subsubsection
 
-\size large
+\size larger
 Disadvantages
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Not flexible when it comes to their camera feature; it does not allow you
  to edit the misunderstood pictorial data.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Medications are only scheduled on daily basis.
 \end_layout
 
 \begin_layout Subsection
+
+\size larger
 WebMD
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 WebMD Symptom Checker is a free, web-based tool that enables patients to
  enter their information to help them diagnose their issues whose main target
  audience is the general public who do not posess enough knowledge about
@@ -1973,59 +1963,61 @@ WebMD Symptom Checker is a free, web-based tool that enables patients to
 
 \begin_layout Subsubsection
 
-\size large
+\size larger
 Advantages
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Ease of use.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Good user experience.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Surveys.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Explanation facilities.
 \end_layout
 
 \begin_layout Subsubsection
 
-\size large
+\size larger
 Disadavantages
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 No record keeping.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Single rule matching system.
 \end_layout
 
 \begin_layout Subsection
+
+\size larger
 Miiskin Melanoma Skin Cancer
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 Miiskin is your personal skin monitoring app - a simple tool to assist and
  help you explore and monitor changes on your skin and moles.
  Miiskin’s mission is to help you keep an eye on your skin and compare moles
@@ -2037,59 +2029,61 @@ Miiskin is your personal skin monitoring app - a simple tool to assist and
 
 \begin_layout Subsubsection
 
-\size large
+\size larger
 Advantages:
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Secure cloud storage for mole pictures.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Keeps track of moles over time.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Great user experience.
 \end_layout
 
 \begin_layout Subsubsection
 
-\size large
+\size larger
 Disadvantages:
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Not a free application.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 Does not provide any information on diagnosis.
 \end_layout
 
 \begin_layout Enumerate
 
-\size large
+\size larger
 It only tracks moles but does nothing more.
 \end_layout
 
 \begin_layout Subsection
+
+\size larger
 Pearl Cancer
 \end_layout
 
 \begin_layout Standard
 
-\size large
+\size larger
 Everyone that’s ever been through or is going through cancer treatment knows
  that the side effects are incredibly overwhelming.
  This application was made by Pearl Point Cancer Support organisation to

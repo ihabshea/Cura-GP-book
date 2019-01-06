@@ -531,6 +531,7 @@ status open
 
 \begin_layout Plain Layout
 
+\size larger
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -544,67 +545,80 @@ Excerpt of Cura GP Brain
 
 \begin_layout Plain Layout
 
+\size larger
 ! array bodypart= breast brain stomach 
 \end_layout
 
 \begin_layout Plain Layout
 
+\size larger
 ! array paintype = burning crampy dull Sharp 
 \end_layout
 
 \begin_layout Plain Layout
 
+\size larger
 ! array painspan= sudden ongoing episodic Steady 
 \end_layout
 
 \begin_layout Plain Layout
 
+\size larger
 ! array painlocation= lower abdomen|upper abdomen|middle abdomen 
 \end_layout
 
 \begin_layout Plain Layout
 
+\size larger
 ! array paintrigger= stress|drinking alcohol|eating certain food|Coughing
  or other jarring movements 
 \end_layout
 
 \begin_layout Plain Layout
 
+\size larger
 ! array painrelief=Antacids|changing position|drinking more water 
 \end_layout
 
 \begin_layout Plain Layout
 
+\size larger
 < begin
 \end_layout
 
 \begin_layout Plain Layout
 
+\size larger
 +Describe how you are feeling right now{topic=pain}
 \end_layout
 
 \begin_layout Plain Layout
 
+\size larger
 >topic pain 
 \end_layout
 
 \begin_layout Plain Layout
 
+\size larger
 +[*](@bodypart)[*] 
 \end_layout
 
 \begin_layout Plain Layout
 
+\size larger
 - in which area does it hurt <set pp=<star>> 
 \end_layout
 
 \begin_layout Plain Layout
 
+\size larger
 +[*](@painlocation)[*] 
 \end_layout
 
 \begin_layout Plain Layout
 
+\size larger
 -Describe how is the pain like <set pl=<star>> 
 \end_layout
 

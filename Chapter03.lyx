@@ -1,5 +1,5 @@
 #LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 534
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -22,6 +22,7 @@
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -53,6 +54,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -61,6 +63,8 @@
 \tocdepth 2
 \paragraph_separation indent
 \paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
 \quotes_style english
 \dynamic_quotes 0
 \papercolumns 1
@@ -76,279 +80,662 @@
 \begin_body
 
 \begin_layout Chapter
-Math Test Chapter
+Requirements Analysis and Specification
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset label
-LatexCommand label
-name "ch:mathtest"
-
-\end_inset
-
-Ei choro aeterno antiopam mea, labitur bonorum pri no.
- His no decore nemore graecis.
- In eos meis nominavi, liber soluta vim cu.
- Sea commune suavitate interpretaris eu, vix eu libris efficiantur.
+—
 \end_layout
 
 \begin_layout Section
-Some Formulas
+System Domain
 \end_layout
 
 \begin_layout Standard
-Due to the statistical nature of ionisation energy loss, large fluctuations
- can occur in the amount of energy deposited by a particle traversing an
- absorber element
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Examples taken from Walter Schmidt's great gallery: 
-\begin_inset Newline newline
-\end_inset
-
- 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://home.vrweb.de/~was/mathfonts.html
+The CuraGP web and mobile applications provide an interactive interface
+ hat alllows patients to describe the symptomos they are experiencing for
+ a quick consultation session with Cura’s interactive general practitioner
+ bot.
+ The patient can choose to view a detailed report of the GP’s diagnosis,
+ which is to be sent to the patient’s preferred oncologist for diagnosis
+ confirmation, further diagnosis and treatment follow-up through Cura CBR.
+ The patient does not have a prescribed method of question asking, the bot
+ is programmed in such a way as to answer all questions, no matter how they
+ are written, the only requirement is that they are written in English.
+ In order for any user to be able to use any of the cCura products, they
+ have to be registered on the main Cura portal.
+ Patients can register through a specific website that grants them access
+ to CuraGP, CuraCBR and CuraTherapy.
+ Patients should provide their names, date of birth, country, city of residence,
+ address, email, phone(s) for contact, and a password.
+ Doctors/Oncologists have to request membership through the same portal.
+ Specialized moderators handle registrations and confirm oncologist registration.
 \end_layout
 
-\end_inset
+\begin_layout Section
+Class Diagram
+\end_layout
 
+\begin_layout Standard
 
 \end_layout
 
-\end_inset
-
-.
- Continuous processes such as multiple scattering and energy loss play a
- relevant role in the longitudinal and lateral development of electromagnetic
- and hadronic showers, and in the case of sampling calorimeters the measured
- resolution can be significantly affected by such fluctuations in their
- active layers.
- The description of ionisation fluctuations is characterised by the significance
- parameter 
-\begin_inset Formula $\kappa$
-\end_inset
-
-, which is proportional to the ratio of mean energy loss to the maximum
- allowed energy transfer in a single collision with an atomic electron:
- 
-\begin_inset Marginal
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-You might get unexpected results using math in chapter or section heads.
- Consider the 
-\family typewriter
-pdfspacing
-\family default
- option.
+\begin_inset Graphics
+	filename /home/ihab/Desktop/project/SW Analysis/class-diagram.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Class diagram
 \end_layout
 
 \end_inset
 
- 
-\begin_inset Formula 
-\[
-\kappa=\frac{\xi}{E_{\textrm{max}}}
-\]
+
+\end_layout
 
 \end_inset
 
- 
-\begin_inset Formula $E_{\textrm{max}}$
-\end_inset
 
- is the maximum transferable energy in a single collision with an atomic
- electron.
- 
-\begin_inset Formula 
-\[
-E_{\textrm{max}}=\frac{2m_{\textrm{e}}\beta^{2}\gamma^{2}}{1+2\gamma m_{\textrm{e}}/m_{\textrm{x}}+\left(m_{\textrm{e}}/m_{\textrm{x}}\right)^{2}}\ ,
-\]
+\end_layout
 
-\end_inset
-
- where 
-\begin_inset Formula $\gamma=E/m_{\textrm{x}}$
-\end_inset
-
-, 
-\begin_inset Formula $E$
-\end_inset
-
- is energy and 
-\begin_inset Formula $m_{\textrm{x}}$
-\end_inset
-
- the mass of the incident particle, 
-\begin_inset Formula $\beta^{2}=1-1/\gamma^{2}$
-\end_inset
-
- and 
-\begin_inset Formula $m_{\textrm{e}}$
-\end_inset
-
- is the electron mass.
- 
-\begin_inset Formula $\xi$
-\end_inset
-
- comes from the Rutherford scattering cross section and is defined as: 
-\begin_inset Formula 
-\begin{eqnarray*}
-\xi=\frac{2\pi z^{2}e^{4}N_{\textrm{Av}}Z\rho\delta x}{m_{\textrm{e}}\beta^{2}c^{2}A}=153.4\frac{z^{2}}{\beta^{2}}\frac{Z}{A}\rho\delta x\quad\textrm{keV},
-\end{eqnarray*}
-
-\end_inset
-
- where
+\begin_layout Section
+Activity Diagram
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/ihab/Desktop/project/SW Analysis/activity-diagram.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Activity Diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Use Case Diagrams
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/ihab/Desktop/project/SW Analysis/usecase.png
+	scale 34
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Use case diagram 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/ihab/Desktop/project/SW Analysis/diagram2.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Use case diagram 2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/ihab/Desktop/project/SW Analysis/usecase2.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Use case diagram 3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/ihab/Desktop/project/SW Analysis/usecae3.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Use case diagram 4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/ihab/Desktop/project/SW Analysis/usecase4.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Use case diagram 5
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/ihab/Desktop/project/SW Analysis/usecase5.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Use case diagram 6
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+DFD Level 0
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/ihab/Downloads/Lush Spot (1).png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This diagram can be summarized as follows:
+\end_layout
+
+\begin_layout Standard
+The patient submits their symptoms while chatting with the Cura General
+ Pracititioner along with their medical history which is requested when
+ finalizing the general practitioner's session if the GP suspects the patient
+ has one of the cancers the system is concerned with.
+ The system then classifies the patient's symptoms along with their entire
+ profile, which includes their medical history, according to previous cases
+ stored in the Cura Case Based Reasoning system to confirm whether or not
+ they have the suspected cancer.
+ Only then the system refers the patient to a nearby oncologist specialized
+ in that illness and uses Cura CBR to continue the diagnosis and then treatment.
+ The oncologist has to verify the CuraGP classification of the illness as
+ a final confirmation before the patient is admitted to the system.
+ 
+\end_layout
+
+\begin_layout Standard
+Once the patient is confirmed, a series of visits with the oncologist commences
+ in which each time the oncologist asks the patient to submit scans prior
+ to the physical session, which the system classifies according to a data
+ set including the profiles of other patients along with their scans, this
+ is more detailed in child diagram 5.
+ At the end of each session there are conclusion arrived at by the system
+ and by the oncologist, the oncologist has to verify the system's conclusion.
+\end_layout
+
+\begin_layout Standard
+Once a treatment trigger is found, the adaptation subsystem is fired which
+ uses a connectionist neural network to derive discriminating features to
+ find the most appropriate treatment for the current patient, more details
+ of this process is in child diagram 6.
+ The system triggers the oncologist to ensure no allergic reactions to the
+ treatment will ensue by requiring the oncologist to perform an alllergy
+ test on the patient.
+\end_layout
+
+\begin_layout Standard
+Just then the treatment starts, and along the road the treatment is adapted
+ by the patient's progress, similar profiles and the oncologist's opinion
+ until the treatment is complete.
+ When the treatment is complete, the oncologist validates the treatment
+ progress by completing a survey.
+ This is done to ensure better performances in the future.
+\end_layout
+
+\begin_layout Section
+DFD Child Diagrams
+\end_layout
+
+\begin_layout Subsubsection
+Child Diagram 5
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/ihab/Downloads/Educated Crook.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Data Dictionary
+\end_layout
+
+\begin_layout Standard
+
+\lang english
 \begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="2">
+<lyxtabular version="3" rows="7" columns="3">
 <features tabularvalignment="middle">
-<column alignment="left" valignment="top">
-<column alignment="left" valignment="top">
+<column alignment="center" valignment="top" width="15page%">
+<column alignment="center" valignment="top" width="25page%">
+<column alignment="center" valignment="top">
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $z$
-\end_inset
 
- 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-charge of the incident particle 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $N_{\textrm{Av}}$
-\end_inset
 
- 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Avogadro's number 
+
+\lang english
+Create Patient Profile
 \end_layout
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $Z$
-\end_inset
 
- 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-atomic number of the material 
+\lang english
+Process ref.: 1 
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $A$
-\end_inset
 
- 
+\lang english
+Description:
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-atomic weight of the material 
+
+\size small
+\lang english
+Gather all necessary data about patient from medical history to symptoms
 \end_layout
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\rho$
-\end_inset
 
- 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-density 
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\delta x$
-\end_inset
 
+\lang english
+Inputs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Logic Summary
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Outputs
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+P-1 symptoms + history
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+D1-1 patient info
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Once the Cura general practitioner collects all the necessary information
+ needed to classify the patient, it immediately sends them to the classifier
  
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-thickness of the material 
+
+\lang english
+1-2: profile
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Physical ref.:
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Part of online form through CuraGP
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\size small
+ull description of this logic can be found in:
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Functional spec.
+ section 3.7.1
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -362,137 +749,338 @@ thickness of the material
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\kappa$
+
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="15page%">
+<column alignment="center" valignment="top" width="25page%">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Classify Patient Illness
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Process ref.: 2 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Description:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Classify illness using training set of other patient profiles
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Inputs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Logic Summary
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Outputs
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-2 profile
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Required preprocessing is performed then using a connectionist neural network
+ similar profiles are fetched and matched with the current patient's profile
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+2-3: class
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Physical ref.:
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\size small
+ull description of this logic can be found in:
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Functional spec.
+ section 3.7.2
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
 \end_inset
 
- measures the contribution of the collisions with energy transfer close
- to 
-\begin_inset Formula $E_{\textrm{max}}$
-\end_inset
 
-.
- For a given absorber, 
-\begin_inset Formula $\kappa$
-\end_inset
-
- tends towards large values if 
-\begin_inset Formula $\delta x$
-\end_inset
-
- is large and/or if 
-\begin_inset Formula $\beta$
-\end_inset
-
- is small.
- Likewise, 
-\begin_inset Formula $\kappa$
-\end_inset
-
- tends towards zero if 
-\begin_inset Formula $\delta x$
-\end_inset
-
- is small and/or if 
-\begin_inset Formula $\beta$
-\end_inset
-
- approaches 
-\begin_inset Formula $1$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
-The value of 
-\begin_inset Formula $\kappa$
-\end_inset
 
- distinguishes two regimes which occur in the description of ionisation
- fluctuations:
-\end_layout
+\lang english
+\begin_inset Graphics
+	filename /home/ihab/Pictures/process3.png
+	scale 250
 
-\begin_layout Enumerate
-A large number of collisions involving the loss of all or most of the incident
- particle energy during the traversal of an absorber.
-\begin_inset Separator latexpar
 \end_inset
 
 
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-As the total energy transfer is composed of a multitude of small energy
- losses, we can apply the central limit theorem and describe the fluctuations
- by a Gaussian distribution.
- This case is applicable to non-relativistic particles and is described
- by the inequality 
-\begin_inset Formula $\kappa>10$
-\end_inset
-
- (i.
-\begin_inset space \thinspace{}
-\end_inset
-
-e., when the mean energy loss in the absorber is greater than the maximum
- energy transfer in a single collision).
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Particles traversing thin counters and incident electrons under any conditions.
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-The relevant inequalities and distributions are 
-\begin_inset Formula $0.01<\kappa<10$
-\end_inset
-
-, Vavilov distribution, and 
-\begin_inset Formula $\kappa<0.01$
-\end_inset
-
-, Landau distribution.
- 
-\end_layout
-
-\end_deeper
-\begin_layout Section
-Various Mathematical Examples
 \end_layout
 
 \begin_layout Standard
-If 
-\begin_inset Formula $n>2$
-\end_inset
 
-, the identity 
-\begin_inset Formula 
-\[
-t[u_{1},\dots,u_{n}]=t\bigl[t[u_{1},\dots,u_{n_{1}}],t[u_{2},\dots,u_{n}]\bigr]
-\]
+\lang english
+\begin_inset Graphics
+	filename /home/ihab/Pictures/Screenshot from 2019-01-03 19-24-49.png
+	scale 250
 
 \end_inset
 
- defines 
-\begin_inset Formula $t[u_{1},\dots,u_{n}]$
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Graphics
+	filename /home/ihab/Pictures/Screenshot from 2019-01-03 19-40-06.png
+	scale 250
+
 \end_inset
 
- recursively, and it can be shown that the alternative definition 
-\begin_inset Formula 
-\[
-t[u_{1},\dots,u_{n}]=t\bigl[t[u_{1},u_{2}],\dots,t[u_{n-1},u_{n}]\bigr]
-\]
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Graphics
+	filename /home/ihab/Pictures/Screenshot from 2019-01-03 19-46-26.png
+	scale 250
 
 \end_inset
 
- gives the same result.
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Graphics
+	filename /home/ihab/Pictures/Screenshot from 2019-01-03 19-48-32.png
+	scale 250
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Graphics
+	filename /home/ihab/Pictures/Screenshot from 2019-01-03 19-50-22.png
+	scale 250
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Graphics
+	filename /home/ihab/Pictures/Screenshot from 2019-01-03 19-58-54.png
+	scale 250
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body
