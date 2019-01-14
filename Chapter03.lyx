@@ -125,7 +125,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /home/ihab/Desktop/project/SW Analysis/class-diagram.png
+	filename class-diagram.png
 	scale 40
 
 \end_inset
@@ -166,7 +166,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /home/ihab/Desktop/project/SW Analysis/activity-diagram.png
+	filename activity-diagram.png
 	scale 50
 
 \end_inset
@@ -196,7 +196,7 @@ Activity Diagram
 \end_layout
 
 \begin_layout Section
-Use Case Diagrams
+Sequencce Diagrams
 \end_layout
 
 \begin_layout Standard
@@ -207,7 +207,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /home/ihab/Desktop/project/SW Analysis/usecase.png
+	filename usecase.png
 	scale 34
 
 \end_inset
@@ -219,7 +219,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Use case diagram 1
+Sequence diagram 1
 \end_layout
 
 \end_inset
@@ -241,7 +241,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /home/ihab/Desktop/project/SW Analysis/diagram2.png
+	filename diagram2.png
 	scale 40
 
 \end_inset
@@ -253,7 +253,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Use case diagram 2
+Sequence diagram 2
 \end_layout
 
 \end_inset
@@ -275,7 +275,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /home/ihab/Desktop/project/SW Analysis/usecase2.png
+	filename usecase2.png
 	scale 40
 
 \end_inset
@@ -287,7 +287,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Use case diagram 3
+Sequence diagram 3
 \end_layout
 
 \end_inset
@@ -309,7 +309,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /home/ihab/Desktop/project/SW Analysis/usecae3.png
+	filename usecae3.png
 	scale 40
 
 \end_inset
@@ -321,7 +321,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Use case diagram 4
+Sequence diagram 4
 \end_layout
 
 \end_inset
@@ -343,8 +343,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /home/ihab/Desktop/project/SW Analysis/usecase4.png
-	scale 40
+	filename usecase5.png
+	scale 50
 
 \end_inset
 
@@ -368,6 +368,10 @@ Use case diagram 5
 
 \end_layout
 
+\begin_layout Section
+Use Case Diagrams
+\end_layout
+
 \begin_layout Standard
 \begin_inset Float figure
 placement H
@@ -377,7 +381,45 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /home/ihab/Desktop/project/SW Analysis/usecase5.png
+	filename usecase4.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Use case diagram 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Context Diagram
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Fearless Stranger.png
 	scale 50
 
 \end_inset
@@ -389,7 +431,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Use case diagram 6
+Context diagram
 \end_layout
 
 \end_inset
@@ -408,7 +450,7 @@ DFD Level 0
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /home/ihab/Downloads/Lush Spot (1).png
+	filename Lush Spot (1).png
 	scale 35
 
 \end_inset
@@ -475,7 +517,7 @@ Child Diagram 5
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /home/ihab/Downloads/Educated Crook.png
+	filename Educated Crook.png
 	scale 40
 
 \end_inset
@@ -938,7 +980,7 @@ Functional spec.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /home/ihab/Pictures/process3.png
+	filename process3.png
 	scale 250
 
 \end_inset
@@ -948,7 +990,7 @@ Functional spec.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /home/ihab/Pictures/Screenshot from 2019-01-03 19-24-49.png
+	filename Screenshot from 2019-01-03 19-24-49.png
 	scale 250
 
 \end_inset
@@ -958,7 +1000,7 @@ Functional spec.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /home/ihab/Pictures/Screenshot from 2019-01-03 19-40-06.png
+	filename Screenshot from 2019-01-03 19-40-06.png
 	scale 250
 
 \end_inset
@@ -968,7 +1010,7 @@ Functional spec.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /home/ihab/Pictures/Screenshot from 2019-01-03 19-46-26.png
+	filename Screenshot from 2019-01-03 19-46-26.png
 	scale 250
 
 \end_inset
@@ -978,7 +1020,7 @@ Functional spec.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /home/ihab/Pictures/Screenshot from 2019-01-03 19-48-32.png
+	filename Screenshot from 2019-01-03 19-48-32.png
 	scale 250
 
 \end_inset
@@ -988,7 +1030,7 @@ Functional spec.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /home/ihab/Pictures/Screenshot from 2019-01-03 19-50-22.png
+	filename Screenshot from 2019-01-03 19-50-22.png
 	scale 250
 
 \end_inset
@@ -998,7 +1040,7 @@ Functional spec.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /home/ihab/Pictures/Screenshot from 2019-01-03 19-58-54.png
+	filename Screenshot from 2019-01-03 19-58-54.png
 	scale 250
 
 \end_inset
