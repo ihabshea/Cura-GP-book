@@ -7,7 +7,6 @@
 \textclass classicthesis
 \begin_preamble
 \usepackage{adjustbox}
-\usepackage{longtable}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -713,7 +712,7 @@ Cancer Statistics
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Cancer Type
 \end_layout
 
@@ -724,7 +723,7 @@ Cancer Type
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Estimated Cases
 \end_layout
 
@@ -735,7 +734,7 @@ Estimated Cases
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Estimated Deaths
 \end_layout
 
@@ -748,7 +747,7 @@ Estimated Deaths
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Bladder
 \end_layout
 
@@ -759,7 +758,7 @@ Bladder
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 81,190 
 \end_layout
 
@@ -770,7 +769,7 @@ Bladder
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 17,240 
 \end_layout
 
@@ -783,7 +782,7 @@ Bladder
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Breast (Female – Male) 
 \end_layout
 
@@ -794,7 +793,7 @@ Breast (Female – Male)
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 266,120 – 2,550
 \end_layout
 
@@ -805,7 +804,7 @@ Breast (Female – Male)
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
  40,920 – 480
 \end_layout
 
@@ -818,7 +817,7 @@ Breast (Female – Male)
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Colon and Rectal (Combined) 
 \end_layout
 
@@ -829,7 +828,7 @@ Colon and Rectal (Combined)
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
  140,250 
 \end_layout
 
@@ -840,7 +839,7 @@ Colon and Rectal (Combined)
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 50,630
 \end_layout
 
@@ -853,7 +852,7 @@ Colon and Rectal (Combined)
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Endometrial 
 \end_layout
 
@@ -864,7 +863,7 @@ Endometrial
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 63,230
 \end_layout
 
@@ -875,7 +874,7 @@ Endometrial
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 11,350 
 \end_layout
 
@@ -888,7 +887,7 @@ Endometrial
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Kidney (Renal Cell and Renal Pelvis) Cancer 
 \end_layout
 
@@ -899,7 +898,7 @@ Kidney (Renal Cell and Renal Pelvis) Cancer
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 65,340
 \end_layout
 
@@ -910,7 +909,7 @@ Kidney (Renal Cell and Renal Pelvis) Cancer
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 14,970
 \end_layout
 
@@ -923,7 +922,7 @@ Kidney (Renal Cell and Renal Pelvis) Cancer
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Leukemia (All Types) 
 \end_layout
 
@@ -934,7 +933,7 @@ Leukemia (All Types)
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 60,300
 \end_layout
 
@@ -945,7 +944,7 @@ Leukemia (All Types)
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 24,370 
 \end_layout
 
@@ -958,7 +957,7 @@ Leukemia (All Types)
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Lung (Including Bronchus) 
 \end_layout
 
@@ -969,7 +968,7 @@ Lung (Including Bronchus)
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 234,030
 \end_layout
 
@@ -980,7 +979,7 @@ Lung (Including Bronchus)
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 154,050 
 \end_layout
 
@@ -993,7 +992,7 @@ Lung (Including Bronchus)
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Melanoma
 \end_layout
 
@@ -1004,7 +1003,7 @@ Melanoma
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 91,270 
 \end_layout
 
@@ -1015,7 +1014,7 @@ Melanoma
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 9,320 
 \end_layout
 
@@ -1028,7 +1027,7 @@ Melanoma
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Non-Hodgkin Lymphoma 
 \end_layout
 
@@ -1039,7 +1038,7 @@ Non-Hodgkin Lymphoma
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 74,680
 \end_layout
 
@@ -1050,7 +1049,7 @@ Non-Hodgkin Lymphoma
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
  19,910 
 \end_layout
 
@@ -1063,7 +1062,7 @@ Non-Hodgkin Lymphoma
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Pancreatic 
 \end_layout
 
@@ -1074,7 +1073,7 @@ Pancreatic
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 55,440
 \end_layout
 
@@ -1085,7 +1084,7 @@ Pancreatic
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 44,330 
 \end_layout
 
@@ -1098,7 +1097,7 @@ Pancreatic
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Prostate 
 \end_layout
 
@@ -1109,7 +1108,7 @@ Prostate
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 164,690 
 \end_layout
 
@@ -1120,7 +1119,7 @@ Prostate
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 29,430 
 \end_layout
 
@@ -1133,7 +1132,7 @@ Prostate
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Thyroid 
 \end_layout
 
@@ -1144,7 +1143,7 @@ Thyroid
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 53,990
 \end_layout
 
@@ -1155,7 +1154,7 @@ Thyroid
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
  2,060 
 \end_layout
 
@@ -1213,7 +1212,7 @@ status open
 
 \size larger
 \begin_inset Graphics
-	filename preprocessing.png
+	filename /home/ihab/Downloads/preprocessing.png
 	scale 200
 
 \end_inset
@@ -1566,7 +1565,7 @@ status open
 
 \size larger
 \begin_inset Graphics
-	filename Screenshot from 2018-12-14 17-14-08.png
+	filename /home/ihab/Pictures/Screenshot from 2018-12-14 17-14-08.png
 	scale 150
 
 \end_inset
@@ -1681,7 +1680,7 @@ status open
 
 \size larger
 \begin_inset Graphics
-	filename K-fold_cross_validation_EN.jpg
+	filename /home/ihab/Downloads/K-fold_cross_validation_EN.jpg
 	scale 56
 
 \end_inset
@@ -2040,141 +2039,71 @@ Everyone that’s ever been through or is going through cancer treatment knows
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float table
+wide false
+sideways true
+status open
+
+\begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="6">
-<features booktabs="true" islongtable="true" longtabularalignment="center">
-<column alignment="left" valignment="top" width="5page%">
-<column alignment="left" valignment="top" width="8page%">
-<column alignment="left" valignment="top" width="8page%">
-<column alignment="left" valignment="top" width="8page%">
-<column alignment="left" valignment="top" width="8page%">
-<column alignment="left" valignment="top" width="2page%">
-<row endhead="true" caption="true">
-<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+<lyxtabular version="3" rows="6" columns="6">
+<features islongtable="true" longtabularalignment="left">
+<column alignment="center" valignment="top" width="8page%">
+<column alignment="center" valignment="top" width="8page%">
+<column alignment="center" valignment="top" width="8page%">
+<column alignment="center" valignment="top" width="8page%">
+<column alignment="center" valignment="top" width="8page%">
+<column alignment="center" valignment="top" width="2page%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row endhead="true">
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
 Title
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Methodology
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Advantages
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Disadvantages
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
-Problem Definition
+Problem Teez
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Rate
 \end_layout
 
@@ -2182,23 +2111,19 @@ Rate
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Ada
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 A decision tree chatbot is used to take the symptoms and output potential
  diseases or conditions that the patient might have.
  A decision tree chatbot is used to take the symptoms and output potential
@@ -2208,36 +2133,30 @@ A decision tree chatbot is used to take the symptoms and output potential
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Simple concept, storing medical cases, shows information about potential
  diseases after diagnosis.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Text is case sensitive, requires a lot of medical knowledge by the patient,
  amount of questions can be boring to the user.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Provide a modern, easy to use solution for patients to diagnose and track
  their potential diseases and conditions.
  
@@ -2245,12 +2164,10 @@ Provide a modern, easy to use solution for patients to diagnose and track
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 9/10
 \end_layout
 
@@ -2258,23 +2175,19 @@ Provide a modern, easy to use solution for patients to diagnose and track
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Care Zone 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 It manages patients’ prescription lists and medical conditions by means
  of medication lists and a schedule It also keeps a simple medical record
  for each patient that contains important vitals and statistics.
@@ -2282,12 +2195,10 @@ It manages patients’ prescription lists and medical conditions by means
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Modern interface, keeps the medication tracking process easier, provides
  graphs and visuals about patient records.
  
@@ -2295,12 +2206,10 @@ Modern interface, keeps the medication tracking process easier, provides
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Users are unable to track medications on an hourly basis.
  Prescription picturing isn’t accurate and has a high miss chance.
  
@@ -2308,12 +2217,10 @@ Users are unable to track medications on an hourly basis.
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Provide a way to keep track of prescriptions and general health by means
  of an application.
  
@@ -2321,12 +2228,10 @@ Provide a way to keep track of prescriptions and general health by means
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 9/10
 \end_layout
 
@@ -2334,23 +2239,19 @@ Provide a way to keep track of prescriptions and general health by means
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 WebMD Symptom Checker
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 It takes in the patient’s basic information along with their current symptoms
  and conditions and medications that they take, it then shows them what
  symptoms they might have based on their input.
@@ -2359,12 +2260,10 @@ It takes in the patient’s basic information along with their current symptoms
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Easy interface, doesn’t require expert knowledge about the domain, it suggests
  common symptoms.
  It lists potential conditions by order of their relativeness to the input.
@@ -2373,12 +2272,10 @@ Easy interface, doesn’t require expert knowledge about the domain, it suggests
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 It doesn’t keep a medical record of the patient; each new session is a new
  patient to the system.
  It requires an Internet connection.
@@ -2386,23 +2283,19 @@ It doesn’t keep a medical record of the patient; each new session is a new
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Provide a web solution for patients to diagnose their diseases and conditions.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 8/10
 \end_layout
 
@@ -2410,35 +2303,29 @@ Provide a web solution for patients to diagnose their diseases and conditions.
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Miiskin-Melanoma-Skin-Cancer
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Provide side-by-side image viewing and comparison to easily detect and track
  skin and moles.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
  Has a clean, on-the-spot user interface, not cluttered with irrelevant
  features.
  Reminds the user when to take a new picture of their skin.
@@ -2447,12 +2334,10 @@ Provide side-by-side image viewing and comparison to easily detect and track
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 It is a premium app that has a 30-day trial only.
  It doesn’t have an explanation facility or evaluation or analysis of the
  images, the users are left on their own.
@@ -2461,60 +2346,50 @@ It is a premium app that has a 30-day trial only.
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
  Provide an application to facilitate skin and mole detection and tracking
  in a hope to early detect melanoma.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 8/10
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<row endhead="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Pearl point the cancer side effects helper
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Provides information and dictionaries about cancer treatment side effects,
  mostly a knowledge base or an information catalogue.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
  Has a simple, user-friendly interface.
  Has condition and symptom explanation to familiarise patients with what’s
  going on with them.
@@ -2525,24 +2400,20 @@ Provides information and dictionaries about cancer treatment side effects,
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 It doesn’t keep a medical record or track previous patient conditions.
  Doesn’t provide a satisfying feature set.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Help patients learn about the side effects of their treatment and generally
  educate themselves about their conditions and diseases.
  
@@ -2550,12 +2421,10 @@ Help patients learn about the side effects of their treatment and generally
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 -
 \end_layout
 
@@ -2569,10 +2438,15 @@ Help patients learn about the side effects of their treatment and generally
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 
 \end_layout
 

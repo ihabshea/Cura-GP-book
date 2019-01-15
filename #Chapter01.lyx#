@@ -176,7 +176,7 @@ status open
 
 \size larger
 \begin_inset Graphics
-	filename lung-cancer-cell-dividing-article.__v80030169.jpg
+	filename /home/ihab/Downloads/lung-cancer-cell-dividing-article.__v80030169.jpg
 	scale 50
 
 \end_inset
@@ -275,7 +275,7 @@ status open
 
 \size larger
 \begin_inset Graphics
-	filename Screen-Shot-2016-03-17-at-17.29.09.png
+	filename /home/ihab/Downloads/Screen-Shot-2016-03-17-at-17.29.09.png
 	scale 200
 
 \end_inset
@@ -961,6 +961,46 @@ System Requirements
 Functional Requirements
 \end_layout
 
+\begin_layout Standard
+
+\size larger
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset Graphics
+	filename /home/ihab/Downloads/Untitled Diagram (1).png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Context Diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Enumerate
 
 \series bold
@@ -1336,7 +1376,7 @@ Research Methodology
 
 \size larger
 \begin_inset Graphics
-	filename collect.jpg
+	filename /home/ihab/Downloads/collect.jpg
 	scale 150
 
 \end_inset
@@ -1452,7 +1492,7 @@ status open
 \size larger
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="2">
-<features booktabs="true" islongtable="true" longtabularalignment="center">
+<features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="30page%">
 <column alignment="center" valignment="top" width="30page%">
 <row>
@@ -1462,7 +1502,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-\size footnotesize
+\size larger
 Qualitative
 \end_layout
 
@@ -1474,7 +1514,7 @@ Qualitative
 \begin_layout Plain Layout
 
 \series bold
-\size footnotesize
+\size larger
 Quantitative
 \end_layout
 
@@ -1487,7 +1527,7 @@ Quantitative
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 The aim is providing detailed, complete descriptions.
 \end_layout
 
@@ -1498,7 +1538,7 @@ The aim is providing detailed, complete descriptions.
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 The aim is classifying features, counting them and constructing statistical
  models to explain the observations.
 \end_layout
@@ -1512,7 +1552,7 @@ The aim is classifying features, counting them and constructing statistical
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Recommended during the early phases of research.
 \end_layout
 
@@ -1523,7 +1563,7 @@ Recommended during the early phases of research.
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Recommended in later phases in the research.
 \end_layout
 
@@ -1536,7 +1576,7 @@ Recommended in later phases in the research.
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 The design emerges as the study unfolds.
 \end_layout
 
@@ -1547,7 +1587,7 @@ The design emerges as the study unfolds.
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 The study is designed carefully before data is collected.
 \end_layout
 
@@ -1560,7 +1600,7 @@ The study is designed carefully before data is collected.
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Data is in the form of words, pictures or objects.
 \end_layout
 
@@ -1571,7 +1611,7 @@ Data is in the form of words, pictures or objects.
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Data is in the form of numbers and statistics.
  
 \end_layout
@@ -1585,7 +1625,7 @@ Data is in the form of numbers and statistics.
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Subjective
 \end_layout
 
@@ -1596,7 +1636,7 @@ Subjective
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Objective
 \end_layout
 
@@ -1609,7 +1649,7 @@ Objective
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 Time consuming, and less able to generalise to independent data
 \end_layout
 
@@ -1620,7 +1660,7 @@ Time consuming, and less able to generalise to independent data
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size larger
 More efficient, and could be cross-validated
 \end_layout
 

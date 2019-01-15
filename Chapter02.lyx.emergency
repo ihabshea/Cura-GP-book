@@ -1,0 +1,982 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass classicthesis
+\use_default_options true
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type numerical
+\biblio_style plainnat
+\biblatex_bibstyle numeric-comp
+\biblatex_citestyle numeric-comp
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Background and Related Work
+\end_layout
+
+\begin_layout Standard
+This project draws upon several diverse fields including bioinformatics,
+ computer science, blockchain, nudge behavioral psychology and game theory.
+ The purpose of this chapter is to give a general sense of how each of these
+ areas affected the project, as well as point to similar projects that gave
+ rise to this project.
+\end_layout
+
+\begin_layout Standard
+This chapter discusses the approach used to recognize and treat cancer,
+ along with motivational incentives for doctors and specialists to willingly
+ share their relative data sets.
+ 
+\end_layout
+
+\begin_layout Section
+Behavioral Psychology
+\end_layout
+
+\begin_layout Standard
+Cura's system is particulary interested in nudging,in which small changes
+ are introduced to an individual's choice set to push individuals towards
+ certain behavior without
+\end_layout
+
+\begin_layout Section
+Cancer
+\end_layout
+
+\begin_layout Standard
+Cancer refers to uncontrollable cells that continuously row and invade bodily
+ tissues.
+ Cells may turn cancerous due to different factors including accumulation
+ of mutations in the DNA.
+ Examples of genetic mutations include BRCA1 and BRCA2 mutations.
+ Cancer could also be caused by terrible lifestyle choices such as the consumpti
+on of smoked red meat (e.g: hot dogs and sausages), which are classifed as
+ IARC Group 1 carcinogens, meaning they do cause cancer in humans.
+ Cells can detect and repair DNA damage most of the time, and the body usually
+ gets rid of damaged cells trough a process called programmed cell death
+ but sometimes cancerous cells can bypass this process to grow, divide and
+ sprad abnormaly in the tissues of the human body.
+ Benign tumours are tumours that grow only in one place and usually do not
+ grow back if treated, while malignant tumours grow in different places
+ and hence they are more dangerous.
+\end_layout
+
+\begin_layout Subsection
+Cancer Detection
+\end_layout
+
+\begin_layout Standard
+There are several ways by which patients can know whether or not they have
+ cancer.
+ Examples of which will be discussed in this section.
+\end_layout
+
+\begin_layout Subsubsection
+Complete Blood Count (CBC)
+\end_layout
+
+\begin_layout Standard
+Sample of the blood is tested to measure the amount of various type of blood
+ cells, usually this method is used to detect blood cancer if a certain
+ blood cell type has too many or too few blood cells or by the existence
+ of abnormal cells.
+ Usually, bone marrow biopsy could help confirm the diagnosis of a blood
+ cancer.
+\end_layout
+
+\begin_layout Subsubsection
+Tumour Marker Tests
+\end_layout
+
+\begin_layout Standard
+Although tumour markers are typically chemicals made by tumour cells that
+ could be detected in a blood sample, they could also be produced by some
+ normal cells, and the levels of which maybe higher in noncancerous conditions.
+ This is usually considered a problem for tumour marker tests to detect
+ and diagnose cancer.
+ It is rare to only use such a method alone to confirm the diagnosis of
+ cancer.
+ 
+\end_layout
+
+\begin_layout Standard
+Examples of such tests include prostate-specific antigen for prostate cancer,
+ calcionin for medullary thyroid cancer, alpha-fetoprotein (AFP) for liver
+ canceror and human chorionic gonadotropin (HCG) for germ cell tumors, such
+ as testicular cancer and ovarian cancer.
+ That said, use of tumour marker tests is still highly controversial.
+\end_layout
+
+\begin_layout Subsubsection
+Biopsy
+\end_layout
+
+\begin_layout Standard
+A test in which a sample of cells or a piece of a tissue is removed and
+ analyzed in a laboratory with the purpose of diagnosing cancer.
+ There are different types of Biopsy tests including:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Bone Marrow Biopsy:
+\series default
+ as mentioned previously this test is specially important in diagnosis blood
+ cancers.
+ Bone marrow is a spongy material inside the larger bones in the human body
+ in which blood cells are produced.
+ Analyzing a sample could help reveal the problem.
+\begin_inset Newline newline
+\end_inset
+
+Bone marrow is the spongy material inside some of your larger bones where
+ blood cells are produced.
+ Analyzing a sample of bone marrow may reveal what's causing your blood
+ problem.
+ A bone marrow biopsy could help diagnose malignant tumours that traveled
+ to the bone marrow.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Endoscopic biopsy: 
+\series default
+using a thin, flexible tube with a light on its end to see the inside the
+ body.
+ The tube usually takes small samples of tissues for later analysis.
+ An endoscopic biopsy could be inserted through the mouth, rectum, urinary
+ tract or a small incision through the skin.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Needle biopsy: 
+\series default
+using a needle cells from suspicious areas could be extracted.
+ A needle biopsy may be more suitable for tumours that can be felt through
+ skin such as suspicious breast lumps and enlarged lymph nodes.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Skin biopsy: 
+\series default
+involves removing cells from the surface of the body.
+ Usually used to detect skin cancer.
+\end_layout
+
+\begin_layout Subsection
+Symptoms
+\end_layout
+
+\begin_layout Subsubsection
+Symptoms of Brain Cancer:
+\end_layout
+
+\begin_layout Enumerate
+Severe headache whose onset is usually in the early morning.
+\end_layout
+
+\begin_layout Enumerate
+Seizures, including motor seizures.
+\end_layout
+
+\begin_layout Enumerate
+Changes to personality and/or memory.
+\end_layout
+
+\begin_layout Enumerate
+Vomitting and nausea.
+\end_layout
+
+\begin_layout Enumerate
+Fatigue.
+\end_layout
+
+\begin_layout Enumerate
+Problems falling asleep
+\end_layout
+
+\begin_layout Enumerate
+Problems with memory.
+\end_layout
+
+\begin_layout Enumerate
+Changes to motor abilities such as walking.
+\end_layout
+
+\begin_layout Enumerate
+Loss of balance is usually associated with a tumour in the cerebellum.
+\end_layout
+
+\begin_layout Enumerate
+Complete or partial loss of vision is associated to a tumour in the occipital
+ lobe or temporal lobe of the cerebrum.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Changes in speech, hearing, memory, or emotional state, such as aggressiveness
+ and problems understanding or retrieving words can be attributed to a tumor
+ in the frontal and temporal lobe of the cerebrum.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Inability to look upward can be because of a pineal gland tumor.
+\end_layout
+
+\begin_layout Enumerate
+Lactation and altered menstrual periods in women are linked tos a pituitary
+ tumor.
+\end_layout
+
+\begin_layout Enumerate
+Difficulty swallowing, facial weakness or double vision is a symptom of
+ a tumor in the brain stem.
+\end_layout
+
+\begin_layout Subsubsection
+Symptoms of Stomach Cancer
+\end_layout
+
+\begin_layout Enumerate
+Vomitting and nausea.
+\end_layout
+
+\begin_layout Enumerate
+Fatigue.
+\end_layout
+
+\begin_layout Enumerate
+Indigestion.
+\end_layout
+
+\begin_layout Enumerate
+Loss of apetite.
+\end_layout
+
+\begin_layout Enumerate
+Feeling that food is stuck in throat while eating.
+\end_layout
+
+\begin_layout Enumerate
+Unexplained weight loss.
+\end_layout
+
+\begin_layout Enumerate
+Diahrrea or constipation.
+\end_layout
+
+\begin_layout Enumerate
+Vomitting blood in advanced stages.
+\end_layout
+
+\begin_layout Subsubsection
+Symptoms of Breast Cancer
+\end_layout
+
+\begin_layout Enumerate
+Change in the size of the breast.
+\end_layout
+
+\begin_layout Enumerate
+Bloody nipple discharge that occurs suddenly and only in one nipple.
+\end_layout
+
+\begin_layout Enumerate
+A nipple turned inward, a sore in the nipple area or any physical changes.
+\end_layout
+
+\begin_layout Enumerate
+Pain in the breast that doesn't go away.
+\end_layout
+
+\begin_layout Enumerate
+A lump that feels like a thickening in the breast.
+\end_layout
+
+\begin_layout Subsection
+Cancer Statistics
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="3">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cancer Type
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estimated Cases
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estimated Deaths
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bladder
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+81,190 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17,240 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Breast (Female – Male) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+266,120 – 2,550
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ 40,920 – 480
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Colon and Rectal (Combined) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ 140,250 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50,630
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Endometrial 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+63,230
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11,350 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kidney (Renal Cell and Renal Pelvis) Cancer 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+65,340
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14,970
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Leukemia (All Types) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60,300
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24,370 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lung (Including Bronchus) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+234,030
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+154,050 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Melanoma 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+91,270 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9,320 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Non-Hodgkin Lymphoma 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+74,680
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ 19,910 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pancreatic 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+55,440
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44,330 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Prostate 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+164,690 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+29,430 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Thyroid 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+53,990
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ 2,060 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Similar Work
+\end_layout
+
+\begin_layout Subsection
+ADA
+\end_layout
+
+\begin_layout Standard
+ADA is a smartphone application NLP-based chatbot whose purpose is to help
+ patients diagnose what disease they might have by posing some questions
+ about symptoms so it can reach a conclusion of what disease you may have
+ by analyzing your answers.
+\end_layout
+
+\begin_layout Subsubsection
+Advantages:
+\end_layout
+
+\begin_layout Enumerate
+Free.
+\end_layout
+
+\begin_layout Enumerate
+Easy to use.
+\end_layout
+
+\begin_layout Enumerate
+The plausible conclusion will be shown at the end of each session based
+ on proper analysis of the answers provided.
+\end_layout
+
+\begin_layout Enumerate
+Suggestions of actions the patient should take are presented.
+\end_layout
+
+\begin_layout Enumerate
+Explanation facilities.
+\end_layout
+
+\begin_layout Subsection*
+Disadvantages:
+\end_layout
+
+\begin_layout Enumerate
+Not as flexible as might be needed.
+ Symptoms have to be written correctly.
+\end_layout
+
+\begin_layout Enumerate
+Not a very friendly user experience.
+\end_layout
+
+\begin_layout Subsection
+CareZone
+\end_layout
+
+\begin_layout Standard
+Care Zone can manage medications and doctor’s instructions.
+ Managing prescriptions, medications and health in one place, ant the applicatio
+n makes sure you always have an up to date list of your or your loved one’s
+ medications, and that you’re following the exact instructions given to
+ you by doctors after diagnosis, treatment or discharge and that you always
+ have a medication list with you.
+ The application allows you to quickly create a detailed medications list,
+ which is securely backed up and accessible from any mobile device or browser
+ at the clinic, in an emergency, or any other time you need it.
+ Reminders help you stay on schedule.
+ Schedule when you, or a family member, is supposed to take each dose and
+ Carezone will send reminders to you, your family, or anyone you choose
+ that it’s time to take medications.
+ Finally, it allows you to organize important info in one place.
+\end_layout
+
+\begin_layout Subsubsection
+Advantages:
+\end_layout
+
+\begin_layout Enumerate
+Sleep journal to keep track of your sleep habits.
+\end_layout
+
+\begin_layout Enumerate
+Medications journal.
+\end_layout
+
+\begin_layout Enumerate
+Medication reminders.
+\end_layout
+
+\begin_layout Enumerate
+Tracking options for ailments.
+\end_layout
+
+\begin_layout Enumerate
+Organized.
+\end_layout
+
+\begin_layout Subsubsection
+Disadvantages
+\end_layout
+
+\begin_layout Enumerate
+Not flexible when it comes to their camera feature; it does not allow you
+ to edit the misunderstood pictorial data.
+\end_layout
+
+\begin_layout Enumerate
+Medications are only scheduled on daily basis.
+\end_layout
+
+\begin_layout Subsection
+WebMD
+\end_layout
+
+\begin_layout Standard
+WebMD Symptom Checker is a free, web-based tool that enables patients to
+ enter their information to help them diagnose their issues whose main target
+ audience is the general public who do not posess enough knowledge about
+ disease symptoms.
+\end_layout
+
+\begin_layout Subsubsection
+Advantages
+\end_layout
+
+\begin_layout Enumerate
+Ease of use.
+\end_layout
+
+\begin_layout Enumerate
+Good user experience.
+\end_layout
+
+\begin_layout Enumerate
+Surveys.
+\end_layout
+
+\begin_layout Enumerate
+Explanation facilities.
+\end_layout
+
+\begin_layout Subsubsection
+Disadavantages
+\end_layout
+
+\begin_layout Enumerate
+No record keeping.
+\end_layout
+
+\begin_layout Enumerate
+Single rule matching system.
+\end_layout
+
+\begin_layout Subsection
+Miiskin Melanoma Skin Cancer
+\end_layout
+
+\begin_layout Standard
+Miiskin is your personal skin monitoring app - a simple tool to assist and
+ help you explore and monitor changes on your skin and moles.
+ Miiskin’ s mission is to help you keep an eye on your skin and compare
+ moles over time.
+ Monitoring and detecting changes in moles can be important in finding melanoma
+ (cancer in moles) at an early stage (Malignant Melanoma is one of the most
+ dangerous forms of skin cancer).
+\end_layout
+
+\begin_layout Subsubsection
+Advantages:
+\end_layout
+
+\begin_layout Enumerate
+Secure cloud storage for mole pictures.
+\end_layout
+
+\begin_layout Enumerate
+Keeps track of moles over time.
+\end_layout
+
+\begin_layout Enumerate
+Great UX.
+\end_layout
+
+\begin_layout Subsubsection
+Disadvantages:
+\end_layout
+
+\begin_layout Enumerate
+Not a free application.
+\end_layout
+
+\begin_layout Enumerate
+Does not provide any information on diagnosis.
+\end_layout
+
+\begin_layout Enumerate
+It only tracks moles but does nothing more.
+\end_layout
+
+\begin_layout Subsection
+Pearl Cancer
+\end_layout
+
+\begin_layout Standard
+Everyone that’s ever been through or is going through cancer treatment knows
+ that the side effects are incredibly overwhelming.
+ This application was made by Pearl Point Cancer Support organization to
+ help patients deal with those side effects by finding out what’s causing
+ them and what might help minimize discomfort.
+ The application links to the developers (Pearl point) online archive where
+ the user can find several supports resources.
+\end_layout
+
+\end_body
+\end_document
