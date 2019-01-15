@@ -689,7 +689,7 @@ status open
 
 \size larger
 \begin_inset Graphics
-	filename /home/ihab/Pictures/neuralnet.png
+	filename neuralnet.png
 	scale 150
 
 \end_inset
