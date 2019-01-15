@@ -93,7 +93,7 @@ System Domain
 
 \begin_layout Standard
 The CuraGP web and mobile applications provide an interactive interface
- hat alllows patients to describe the symptomos they are experiencing for
+ that allows patients to describe the symptoms they are experiencing for
  a quick consultation session with Cura’s interactive general practitioner
  bot.
  The patient can choose to view a detailed report of the GP’s diagnosis,
@@ -102,14 +102,21 @@ The CuraGP web and mobile applications provide an interactive interface
  The patient does not have a prescribed method of question asking, the bot
  is programmed in such a way as to answer all questions, no matter how they
  are written, the only requirement is that they are written in English.
- In order for any user to be able to use any of the cCura products, they
+ In order for any user to be able to use any of the Cura products, they
  have to be registered on the main Cura portal.
  Patients can register through a specific website that grants them access
  to CuraGP, CuraCBR and CuraTherapy.
  Patients should provide their names, date of birth, country, city of residence,
  address, email, phone(s) for contact, and a password.
  Doctors/Oncologists have to request membership through the same portal.
- Specialized moderators handle registrations and confirm oncologist registration.
+ Specialised moderators handle registrations and confirm oncologist registration.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -117,6 +124,8 @@ Class Diagram
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Float figure
 placement H
 wide false
@@ -124,6 +133,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align left
 \begin_inset Graphics
 	filename class-diagram.png
 	scale 40
@@ -134,6 +144,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -156,6 +167,7 @@ Activity Diagram
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -165,9 +177,11 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename activity-diagram.png
-	scale 50
+	lyxscale 20
+	scale 10
 
 \end_inset
 
@@ -175,6 +189,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -201,6 +216,7 @@ Sequencce Diagrams
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -344,7 +360,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename usecase5.png
-	scale 50
+	scale 40
 
 \end_inset
 
@@ -459,23 +475,22 @@ DFD Level 0
 \end_layout
 
 \begin_layout Standard
-This diagram can be summarized as follows:
+This diagram can be summarised as follows:
 \end_layout
 
 \begin_layout Standard
 The patient submits their symptoms while chatting with the Cura General
  Pracititioner along with their medical history which is requested when
- finalizing the general practitioner's session if the GP suspects the patient
+ finalising the general practitioner's session if the GP suspects the patient
  has one of the cancers the system is concerned with.
  The system then classifies the patient's symptoms along with their entire
  profile, which includes their medical history, according to previous cases
  stored in the Cura Case Based Reasoning system to confirm whether or not
  they have the suspected cancer.
- Only then the system refers the patient to a nearby oncologist specialized
+ Only then the system refers the patient to a nearby oncologist specialised
  in that illness and uses Cura CBR to continue the diagnosis and then treatment.
  The oncologist has to verify the CuraGP classification of the illness as
  a final confirmation before the patient is admitted to the system.
- 
 \end_layout
 
 \begin_layout Standard
@@ -671,7 +686,7 @@ D1-1 patient info
 \begin_inset Text
 
 \begin_layout Plain Layout
-Once the Cura general practitioner collects all the necessary information
+Once the Cura General Practitioner collects all the necessary information
  needed to classify the patient, it immediately sends them to the classifier
  
 \end_layout
@@ -1983,50 +1998,11 @@ patient-dob
 \end_layout
 
 \begin_layout Plain Layout
-Email
+email
 \end_layout
 
 \begin_layout Plain Layout
-Location
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-City
+location
 \end_layout
 
 \begin_layout Plain Layout
@@ -2065,7 +2041,7 @@ City
 \begin_inset space ~
 \end_inset
 
-Address
+city
 \end_layout
 
 \begin_layout Plain Layout
@@ -2104,11 +2080,50 @@ Address
 \begin_inset space ~
 \end_inset
 
-Country
+address
 \end_layout
 
 \begin_layout Plain Layout
-Phone
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+country
+\end_layout
+
+\begin_layout Plain Layout
+phone
 \end_layout
 
 \begin_layout Plain Layout
@@ -2343,23 +2358,23 @@ Related data flows
 \begin_inset Text
 
 \begin_layout Plain Layout
-Date
+date
 \end_layout
 
 \begin_layout Plain Layout
-Oncologist
+oncologist
 \end_layout
 
 \begin_layout Plain Layout
-Evaluation
+evaluation
 \end_layout
 
 \begin_layout Plain Layout
-Scan-Image
+scan-image
 \end_layout
 
 \begin_layout Plain Layout
-Metadata
+metadata
 \end_layout
 
 \end_inset
@@ -2582,19 +2597,19 @@ Related data flows
 \begin_inset Text
 
 \begin_layout Plain Layout
-Name
+name
 \end_layout
 
 \begin_layout Plain Layout
-Description
+description
 \end_layout
 
 \begin_layout Plain Layout
-Symptom*(1-)
+symptom*(1-)
 \end_layout
 
 \begin_layout Plain Layout
-Diagnosis*(1-)
+diagnosis*(1-)
 \end_layout
 
 \end_inset
@@ -3597,50 +3612,11 @@ patient-dob
 \end_layout
 
 \begin_layout Plain Layout
-Email
+email
 \end_layout
 
 \begin_layout Plain Layout
-Location
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-City
+location
 \end_layout
 
 \begin_layout Plain Layout
@@ -3679,7 +3655,7 @@ City
 \begin_inset space ~
 \end_inset
 
-Address
+city
 \end_layout
 
 \begin_layout Plain Layout
@@ -3718,11 +3694,50 @@ Address
 \begin_inset space ~
 \end_inset
 
-Country
+address
 \end_layout
 
 \begin_layout Plain Layout
-Phone
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+country
+\end_layout
+
+\begin_layout Plain Layout
+phone
 \end_layout
 
 \begin_layout Plain Layout
@@ -3951,50 +3966,11 @@ patient-dob
 \end_layout
 
 \begin_layout Plain Layout
-Email
+email
 \end_layout
 
 \begin_layout Plain Layout
-Location
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-City
+location
 \end_layout
 
 \begin_layout Plain Layout
@@ -4033,7 +4009,7 @@ City
 \begin_inset space ~
 \end_inset
 
-Address
+city
 \end_layout
 
 \begin_layout Plain Layout
@@ -4072,11 +4048,50 @@ Address
 \begin_inset space ~
 \end_inset
 
-Country
+address
 \end_layout
 
 \begin_layout Plain Layout
-Phone
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+country
+\end_layout
+
+\begin_layout Plain Layout
+phone
 \end_layout
 
 \begin_layout Plain Layout
