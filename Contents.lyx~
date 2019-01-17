@@ -111,14 +111,14 @@ phantomsection
 \backslash
 pdfbookmark[0]{
 \backslash
-contentsname}{tableofcontents}
+contentsname}{tableofcontents} 
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-setcounter{tocdepth}{2} % <-- 2 includes up to subsections in the ToC
+setcounter{tocdepth}{2} % <-- 2 includes up to subsections in the ToC 
 \end_layout
 
 \begin_layout Plain Layout
@@ -126,13 +126,14 @@ setcounter{tocdepth}{2} % <-- 2 includes up to subsections in the ToC
 
 \backslash
 setcounter{secnumdepth}{3} % <-- 3 section numbers up to subsubsections
+ 
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-manualmark
+manualmark 
 \end_layout
 
 \begin_layout Plain Layout
@@ -147,21 +148,7 @@ contentsname}}{
 \backslash
 spacedlowsmallcaps{
 \backslash
-contentsname}}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-tableofcontents
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-automark[section]{chapter}
+contentsname}} 
 \end_layout
 
 \begin_layout Plain Layout
@@ -196,6 +183,37 @@ thesection}
 enspace
 \backslash
 spacedlowsmallcaps{#1}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+cfttoctitlefont}{
+\backslash
+normalfont
+\backslash
+Large
+\backslash
+bfseries
+\backslash
+MakeUppercase}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+tableofcontents
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+automark[section]{chapter} 
 \end_layout
 
 \end_inset

@@ -256,34 +256,6 @@ Professor Alaa Zaghloul, and T.A.
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\size scriptsize
-(refer to 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset ref
-LatexCommand labelonly
-reference "ch:LyxPortInfo"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- for more information)
-\size default
-
 \begin_inset Newline newline
 \end_inset
 
